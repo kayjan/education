@@ -19,7 +19,7 @@ body 	{font-family:'Calibri', Fallback, Sans-Serif;
 	url('Calibri.ttf')  format('truetype'), /* Safari, Android, iOS */
 	url('Calibri.svg#svgFontName') format('svg'); /* Legacy iOS */}
 f1	{font-size:200%; color:#FFD700; line-height:1.2}
-f2	{font-size:130%; font-weight:bold; line-height:0.8;}
+f2	{font-size:130%; font-weight:bold; line-height:1.2;}
 f3	{font-size:437.5%; font-weight:bold; color:#FFD700; line-height:0.8;}
 f4	{font-size:120%; font-weight:bold; line-height:1.4;}
 i 	{color:black; font-style:italic;}
@@ -98,7 +98,7 @@ a:hover 	{color:#FFD700;}
 <div class="mainbody">
 <div style="display:inline-block; padding:2%; width:100%">
 <f1><b>Education</b></f1><br><br>
-<f2><font style="line-height:1.4;">Singapore University of Technology and Design</font></f2><br>
+<f2>Singapore University of Technology and Design</f2><br>
 <f2>Bachelor of Engineering, Engineering Systems and Design (ESD)</f2><br>
 <div style="display:flex; justify-content:space-between; width:96%;">
 <font style="color:#FFD700; font-weight:bold">May 2015 - Present
@@ -110,7 +110,7 @@ Expected Date of Graduation: Aug 2018<br>
 Course studied: Details below<br>
 <br><br>
 
-<f2><font style="line-height:1.4;">Zhe Jiang University</font></f2><br>
+<f2>Zhe Jiang University</f2><br>
 <f2>Asian Leadership Programme Scholarship, Summer Exchange</f2><br>
 <div style="display:flex; justify-content:space-between; width:96%;">
 <font style="color:#FFD700; font-weight:bold">May 2016 - Aug 2016
@@ -120,7 +120,7 @@ Researched, designed and crafted ceramic products using traditional techniques i
 Course studied: Design Fiction, Design Thinking and Expression<br>
 <br><br>
 
-<f2><font style="line-height:1.4;">Pioneer Junior College</font></f2><br>
+<f2>Pioneer Junior College</f2><br>
 <f2>GCE A-Level, Rank Points 85 / 90</f2><br>
 <div style="display:flex; justify-content:space-between; width:96%;">
 <font style="color:#FFD700; font-weight:bold">Mar 2013 - Nov 2015
@@ -132,7 +132,7 @@ Member of Nobel House Executive Committee, organizing House bonding activities a
 Course studied: H2 Physics, Chemistry, Mathematics and Economics<br>
 <br><br>
 
-<f2><font style="line-height:1.4;">Anderson Secondary School</font></f2><br>
+<f2>Anderson Secondary School</f2><br>
 <f2>GCE O-Level, L1R5: 6 (Raw: 10) </f2><br>
 <div style="display:flex; justify-content:space-between; width:96%;">
 <font style="color:#FFD700; font-weight:bold">Jan 2009 - Nov 2012
@@ -415,6 +415,8 @@ Financial Services Electives <br>
 
 
 
+
+
 <div class="mainbody">
 <div style="display:inline-block; padding:2%; width:100%">
 <f1><b>Projects</b></f1><br><br>
@@ -424,8 +426,8 @@ Financial Services Electives <br>
 </div>
 <div style="display:inline-block; width:68%; min-width:300px; text-align:left; vertical-align:top;">
 Background: Undirected graph with nodes representing bus numbers and weight of edges representing the number of common bus stops between buses. There are 322 nodes (buses) and 8958 edges.<br><br>
-Using Python, our initial analysis is able show the different centrality of the network (degree centrality, eigenvector centrality, katz centrality and betweenness centrality). From the top 5 ranking of each centrality, there were only 9 unique bus numbers.<br>
-Using R, we are able to churn out the interactive network, as shown below, with only the 9 unique bus numbers and realize that they are very interconnected.<br><br>
+Using Python, initial analysis is able show the different centrality (level of importance) of the network; degree centrality, eigenvector centrality, katz centrality and betweenness centrality. From the top 5 ranking of each centrality, there were only 9 unique bus numbers.<br>
+Using R, an interactive network, as shown below, is churned out with only the 9 unique bus numbers. It can be noticed that they are very interconnected.<br><br>
 <div style="display:inline-block; width:6%; vertical-align:top;">
 <img style="width:100%; " src="https://1.bp.blogspot.com/-W61W78Hap0A/WXSraO9_yrI/AAAAAAAAA3A/ShBnks9PleAJKEAg6Fpjhm5bU1Z92cy2gCLcBGAs/s1600/Network%2BModeling%2BLegend.png">
 </div>
@@ -435,7 +437,7 @@ Using R, we are able to churn out the interactive network, as shown below, with 
 <div id="htmlwidget-69fa89b8ba5048fd0c3f" style="display:inline-block; width:90%; height:200px;" class="forceNetwork html-widget"></div>
 <script type="application/json" data-for="htmlwidget-69fa89b8ba5048fd0c3f">{"x":{"links":{"source":[0,0,0,0,0,0,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,5,5,5,5,5,5,5,6,6,6,6,6,6,6,7,7,7,7,7,7,7,8,8,8,8,8,8],"target":[1,2,3,5,6,7,0,2,3,4,5,6,7,8,0,1,3,4,5,6,7,8,0,1,2,4,5,6,7,8,1,2,3,5,6,7,8,0,1,2,3,4,6,8,0,1,2,3,4,5,7,0,1,2,3,4,6,8,1,2,3,4,5,7],"colour":["#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666"]},"nodes":{"name":[10,51,57,61,66,67,130,196,961],"group":["East","Central","Central","East","Central","East","Central","Central","North"]},"options":{"NodeID":"Bus","Group":"Region","colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":14,"fontFamily":"serif","clickTextSize":17.5,"linkDistance":150,"linkWidth":"function(d) { return Math.sqrt(d.value); }","charge":-70,"opacity":1,"zoom":false,"legend":false,"arrows":false,"nodesize":false,"radiusCalculation":" Math.sqrt(d.nodesize)+6","bounded":true,"opacityNoHover":0,"clickAction":null}},"evals":[],"jsHooks":[]}</script>
 <script type="application/htmlwidget-sizing" data-for="htmlwidget-69fa89b8ba5048fd0c3f">{"viewer":{"width":450,"height":350,"padding":10,"fill":true},"browser":{"width":960,"height":500,"padding":10,"fill":true}}</script><br><br>
-Using Python, we are also able to further extract out information regarding degree distribution, diameter (longest shortest path), path, modularity (degree of clustering of nodes) and cliques. View the photos below to know more about our results.
+Using Python, further information can be extracted regarding degree distribution, diameter (longest shortest path), path, modularity (degree of clustering of nodes) and cliques. View the photos below to know more about the results.
 <br><br><br>
 <i>Hover over thumbnail to enlarge image, click to open in new tab</i>
 <div class="imgHoverP">
@@ -470,14 +472,61 @@ Using Python, we are also able to further extract out information regarding degr
 <img class="imgDefault" style="width:300px; height:auto;" src="https://3.bp.blogspot.com/-3JoeFGdrKsg/WXSNe1TSIhI/AAAAAAAAA2U/Y-IvnLM8wbcob6pgorchodroidOKnkwyQCLcBGAs/s1600/YCH.png" alt="YCH">
 </div>
 <div style="display:inline-block; width:68%; min-width:300px; text-align:left; vertical-align:top;">
-Worked with a team of 5 to forecast demand to optimize inventory planning and restocking policy.<br>
-Applied the knowledge of R for data discovery, Python for data visualization and ExtendSim for model simulation.
+Problem: Company B, a client of YCH, faces stock-out of products due to unexpected demand which result in loss of sales. Also, they are not maximizing profit as they use a pure freight mode, air freight, which is expensive as they do not order in bulk.<br><br>
+Using R, the products that are most popular are identified and singled out for further analysis.<br>
+Using Python, by data visualisation, the same popular products corresponds to products that generate highest sales revenue.<br>
+<br>
+Our proposed methodology includes<br>
+1. Remove obsolete products from warehouse<br>
+By removing obsolete inventory items that are in stock but have not been ordered for more than 2 years, this frees up more space in the warehouse for other fast moving products.<br>
+<br>
+2. Identify and readjust the optimal PAR/order-up-to level<br>
+As Company B uses a PAR (Periodic Automatic Replacement) level model, a pull system inventory control, it employs a just-in-time concept. Loss of sales due to stock-outs can be reduced by readjusting the optimal PAR level.<br>
+Using statistical analysis, we realized the data of quantity order per day for each product fits a Poisson distribution.<br>
+By applying the poisson distributed demand, the optimal PAR level is obtained for different fill rate for each product.<br>
+<br>
+3. Employ dual freight transportation<br>
+To reduce transportation cost for Company B, slow freight mode (shipping) can be introduced and used in complementary with the existing fast mode (air freight).<br>
+Using ExtendSim, the new model of increased par level and dual freight mode can be visualized.<br>
+<center><img style="width:80%" src="https://3.bp.blogspot.com/-DJ079eW3EnY/WXWqmEn2LAI/AAAAAAAAA4g/tm5rA0JKdVk2R4Y3uTEIyhIk7D6S0WmCwCLcBGAs/s1600/YCH%2BExtendSim%2BSimulation.JPG"></center><br>
+Our suggested model prioritises shipping as the preferred choice of mode of delivery with par level 6. Unless inventory level drops below 4, air freight will be the preferred choice. Whereas Company B's existing model only consists of air freight mode of delivery and a par level of 5. <br>
+Running the simulation 10 times, there is significant transport cost savings ($2553 per product per year) and less ocurrence of stock-outs. View the photos below to know more about our results.
 <br><br><br>
 <i>Hover over thumbnail to enlarge image, click to open in new tab</i>
 <div class="imgHoverP">
 <img src="https://2.bp.blogspot.com/-v_nlFTdYXns/WVT7ss49PbI/AAAAAAAAAzQ/dT4CjczlczMieYgk11XGMUtsZCwq7DJfQCLcBGAs/s1600/Term%2B5%2BOM.jpg" alt="1. Poster" onclick="window.open('https://2.bp.blogspot.com/-v_nlFTdYXns/WVT7ss49PbI/AAAAAAAAAzQ/dT4CjczlczMieYgk11XGMUtsZCwq7DJfQCLcBGAs/s1600/Term%2B5%2BOM.jpg', '_blank');" />
 <span><div class="caption">1. Poster</div>
 <img src="https://2.bp.blogspot.com/-v_nlFTdYXns/WVT7ss49PbI/AAAAAAAAAzQ/dT4CjczlczMieYgk11XGMUtsZCwq7DJfQCLcBGAs/s1600/Term%2B5%2BOM.jpg" alt=""></span>
+</div>
+<div class="imgHoverP">
+<img src="https://4.bp.blogspot.com/-EwQ-hEsdhzQ/WXWqnNaI0wI/AAAAAAAAA40/n0CnBvVhJVwAy04KWG67xpQD_ZAphFPWQCLcBGAs/s1600/YCH%2BProduct%2Bby%2BPopularity.JPG" alt="2. Product by Popularity" onclick="window.open('https://4.bp.blogspot.com/-EwQ-hEsdhzQ/WXWqnNaI0wI/AAAAAAAAA40/n0CnBvVhJVwAy04KWG67xpQD_ZAphFPWQCLcBGAs/s1600/YCH%2BProduct%2Bby%2BPopularity.JPG', '_blank');" />
+<span><div class="caption">2. Product by Popularity</div>
+<img src="https://4.bp.blogspot.com/-EwQ-hEsdhzQ/WXWqnNaI0wI/AAAAAAAAA40/n0CnBvVhJVwAy04KWG67xpQD_ZAphFPWQCLcBGAs/s1600/YCH%2BProduct%2Bby%2BPopularity.JPG" alt=""></span>
+</div>
+<div class="imgHoverP">
+<img src="https://4.bp.blogspot.com/-Sqn2xWCKtww/WXWqmw4_XJI/AAAAAAAAA4w/o1YJ2dPns3AgwGsQqdGsCP-__Dk6IgJrwCLcBGAs/s1600/YCH%2BProduct%2Bby%2BSales%2BRevenue.JPG" alt="3. Product by Sales Revenue" onclick="window.open('https://4.bp.blogspot.com/-Sqn2xWCKtww/WXWqmw4_XJI/AAAAAAAAA4w/o1YJ2dPns3AgwGsQqdGsCP-__Dk6IgJrwCLcBGAs/s1600/YCH%2BProduct%2Bby%2BSales%2BRevenue.JPG', '_blank');" />
+<span><div class="caption">3. Product by Sales Revenue</div>
+<img src="https://4.bp.blogspot.com/-Sqn2xWCKtww/WXWqmw4_XJI/AAAAAAAAA4w/o1YJ2dPns3AgwGsQqdGsCP-__Dk6IgJrwCLcBGAs/s1600/YCH%2BProduct%2Bby%2BSales%2BRevenue.JPG" alt=""></span>
+</div>
+<div class="imgHoverP">
+<img src="https://2.bp.blogspot.com/-do5pnHy8xe8/WXWqmtZcUhI/AAAAAAAAA4s/lxuyRWsl_cous0y_6WRQR8-0WNblUsc3gCLcBGAs/s1600/YCH%2BPoisson%2BDistribution.JPG" alt="4. Poisson Distributed Demand" onclick="window.open('https://2.bp.blogspot.com/-do5pnHy8xe8/WXWqmtZcUhI/AAAAAAAAA4s/lxuyRWsl_cous0y_6WRQR8-0WNblUsc3gCLcBGAs/s1600/YCH%2BPoisson%2BDistribution.JPG', '_blank');" />
+<span><div class="caption">4. Poisson Distributed Demand</div>
+<img src="https://2.bp.blogspot.com/-do5pnHy8xe8/WXWqmtZcUhI/AAAAAAAAA4s/lxuyRWsl_cous0y_6WRQR8-0WNblUsc3gCLcBGAs/s1600/YCH%2BPoisson%2BDistribution.JPG" alt=""></span>
+</div>
+<div class="imgHoverP">
+<img src="https://4.bp.blogspot.com/-yVdH1_9inug/WXWqmPaCt4I/AAAAAAAAA4o/AcJYE69stxYdr0e_6LF_nfXa17ZhUVnNgCLcBGAs/s1600/YCH%2BPAR%2BLevel.JPG" alt="5. Adjusted vs Original PAR Level" onclick="window.open('https://4.bp.blogspot.com/-yVdH1_9inug/WXWqmPaCt4I/AAAAAAAAA4o/AcJYE69stxYdr0e_6LF_nfXa17ZhUVnNgCLcBGAs/s1600/YCH%2BPAR%2BLevel.JPG', '_blank');" />
+<span><div class="caption">5. Adjusted vs Original PAR Level</div>
+<img src="https://4.bp.blogspot.com/-yVdH1_9inug/WXWqmPaCt4I/AAAAAAAAA4o/AcJYE69stxYdr0e_6LF_nfXa17ZhUVnNgCLcBGAs/s1600/YCH%2BPAR%2BLevel.JPG" alt=""></span>
+</div>
+<div class="imgHoverP">
+<img src="https://3.bp.blogspot.com/-DJ079eW3EnY/WXWqmEn2LAI/AAAAAAAAA4g/tm5rA0JKdVk2R4Y3uTEIyhIk7D6S0WmCwCLcBGAs/s1600/YCH%2BExtendSim%2BSimulation.JPG" alt="6. ExtendSim Simulation" onclick="window.open('https://3.bp.blogspot.com/-DJ079eW3EnY/WXWqmEn2LAI/AAAAAAAAA4g/tm5rA0JKdVk2R4Y3uTEIyhIk7D6S0WmCwCLcBGAs/s1600/YCH%2BExtendSim%2BSimulation.JPG', '_blank');" />
+<span><div class="caption">6. ExtendSim Simulation</div>
+<img src="https://3.bp.blogspot.com/-DJ079eW3EnY/WXWqmEn2LAI/AAAAAAAAA4g/tm5rA0JKdVk2R4Y3uTEIyhIk7D6S0WmCwCLcBGAs/s1600/YCH%2BExtendSim%2BSimulation.JPG" alt=""></span>
+</div>
+<div class="imgHoverP">
+<img src="https://3.bp.blogspot.com/-JGboWqd5pPs/WXWqlwV9reI/AAAAAAAAA4k/6gHQBIfH980w34FxWw4xe_qRpryaWhkSgCLcBGAs/s1600/YCH%2BExtendSim%2BResults.JPG" alt="7. ExtendSim Simulation Results" onclick="window.open('https://3.bp.blogspot.com/-JGboWqd5pPs/WXWqlwV9reI/AAAAAAAAA4k/6gHQBIfH980w34FxWw4xe_qRpryaWhkSgCLcBGAs/s1600/YCH%2BExtendSim%2BResults.JPG', '_blank');" />
+<span><div class="caption">7. ExtendSim Simulation Results</div>
+<img src="https://3.bp.blogspot.com/-JGboWqd5pPs/WXWqlwV9reI/AAAAAAAAA4k/6gHQBIfH980w34FxWw4xe_qRpryaWhkSgCLcBGAs/s1600/YCH%2BExtendSim%2BResults.JPG" alt=""></span>
 </div>
 </div><br><br><br>
 
