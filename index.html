@@ -53,23 +53,25 @@ a:hover 	{color:#FFD700;}
 .imgDefault	{height:200px;}
 .imgHoverP img	{height:30px; float:left; margin-left:10px; position:relative;}
 .imgHoverP span	{position:fixed; top:0; left:0; bottom:0; right:0;
-		display:none; z-index:9999; background-color:rgba(119, 136, 153, 0.7);
+		display:none; z-index:9999; background-color:rgba(0, 0, 0, 0.7);
 		pointer-events:none;}
 .imgHoverP:hover span 	{display:block;}
-.imgHoverP:hover span img{height:92.5%; top:2.5%; left:50%; -webkit-transform:translateX(-50%); -ms-transform:translateX(-50%); transform:translateX(-50%);}
+.imgHoverP:hover span img{height:87.5%; top:5%; left:50%; -webkit-transform:translateX(-50%); -ms-transform:translateX(-50%); transform:translateX(-50%);}
 .imgHoverL img	{height:30px; float:left; margin-left:10px; position:relative;}
 .imgHoverL span	{position:fixed; top:0; left:0; bottom:0; right:0;
-		display:none; z-index:9999; background-color:rgba(119, 136, 153, 0.7);
+		display:none; z-index:9999; background-color:rgba(0, 0, 0, 0.7);
 		pointer-events:none;}
 .imgHoverL:hover span 	{display:block;}
-.imgHoverL:hover span img{height:auto; width:90%; left:5%; top:50%; -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%);}
-.caption	{display:inline-block; position:absolute; top:95%; height:auto; width:auto; max-width:80%; z-index:9999; background-color:rgba(119, 136, 153, 0.7);
+.imgHoverL:hover span img{height:auto; width:87.5%; left:5%; top:50%; -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%);}
+.caption	{display:inline-block; position:absolute; top:92.5%; z-index:9999;
+		height:auto; width:auto; max-width:80%; 
 		left:50%; -webkit-transform:translateX(-50%); -ms-transform:translateX(-50%); transform:translateX(-50%);
-		text-align:center; font-size:1.5em; font-weight:bold; color:white; padding:3px 0;}
-.collapse-non-md {height:auto; display:block;}
+		text-align:center; font-size:1.5em; color:white; padding:3px 0;}
+.onlydesktop		{height:auto; display:block;}
+.onlymobile		{height:0; display:none;}
 @media (max-width:800px) {
-.collapse-non-md	{height:0; display:none;}
-.collapse-non-md.collapsing {display: block;}
+.onlydesktop		{height:0; display:none;}
+.onlymobile 		{height:auto; display:block;}
 .imgHoverP:hover span 	{display:none;}
 .imgHoverL:hover span 	{display:none;}
 .caption	{display:none;}
@@ -144,7 +146,7 @@ Course studied: Double Science, Double Mathematics, Double Humanities and Higher
 <br><br>
 
 
-<div class="collapse-non-md">
+<div class="onlydesktop">
 <f2>University Curriculum</f2><br><br>
 <div class="modmonths">Jan - Apr</div>
 <div class="modmonths">May - Aug</div>
@@ -516,7 +518,7 @@ Running the simulation 10 times, there is significant transport cost savings ($2
 <span><div class="caption">4. Poisson Distributed Demand</div>
 <img src="https://2.bp.blogspot.com/-do5pnHy8xe8/WXWqmtZcUhI/AAAAAAAAA4s/lxuyRWsl_cous0y_6WRQR8-0WNblUsc3gCLcBGAs/s1600/YCH%2BPoisson%2BDistribution.JPG" alt=""></span>
 </div>
-<div class="imgHoverP">
+<div class="imgHoverL">
 <img src="https://4.bp.blogspot.com/-yVdH1_9inug/WXWqmPaCt4I/AAAAAAAAA4o/AcJYE69stxYdr0e_6LF_nfXa17ZhUVnNgCLcBGAs/s1600/YCH%2BPAR%2BLevel.JPG" alt="5. Adjusted vs Original PAR Level" onclick="window.open('https://4.bp.blogspot.com/-yVdH1_9inug/WXWqmPaCt4I/AAAAAAAAA4o/AcJYE69stxYdr0e_6LF_nfXa17ZhUVnNgCLcBGAs/s1600/YCH%2BPAR%2BLevel.JPG', '_blank');" />
 <span><div class="caption">5. Adjusted vs Original PAR Level</div>
 <img src="https://4.bp.blogspot.com/-yVdH1_9inug/WXWqmPaCt4I/AAAAAAAAA4o/AcJYE69stxYdr0e_6LF_nfXa17ZhUVnNgCLcBGAs/s1600/YCH%2BPAR%2BLevel.JPG" alt=""></span>
