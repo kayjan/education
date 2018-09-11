@@ -173,7 +173,7 @@ The Analytics Edge<br><br>
 <b>Relevant Humanities, Arts and Social Sciences (HASS):</b><br>
 Microeconomics<br>
 Organizational Processes<br>
-The Word and the World<br>
+The Word and the World<br><br>
 View the full list on desktop version.<br>
 <br><br>
 </div>
@@ -497,6 +497,30 @@ Audit Modules<br>
 <div style="display:inline-block; padding:2%; width:100%">
 <f1><b>Industry Projects</b></f1><br><br>
 <div style="padding-left:20px">
+<f4>Capstone (FYP): inlingua School of Languages</f4><br>
+<div style="display:inline-block; width:30%; min-width:300px; text-align:center"><br><br>
+<img class="imgDefault" style="width:300px; height:auto;" src="http://www.inlingua.edu.sg/images/default-source/default-album/inlingua-school-of-languagesc676a6deef5c6deabfb0ff000028c43c.png?sfvrsn=10" alt="inlingua">
+</div>
+<div style="display:inline-block; width:68%; min-width:300px; text-align:left; vertical-align:top;">
+Problem 1: To find out if the school should create new language courses for certain period of the year<br>
+Problem 2: To optimize timetable scheduling (maximize classroom utility) and automate the scheduling process<br>
+Background: inlingua School of Languages in Singapore offers full-time and part-time language courses, corporate and individual tuition in 16 different languages. There is an absence of data analytics (problem 1) and this project also aims to reduce manual efficiencies in the workflow (problem 2).<br><br>
+For Problem 1:<br>
+Using Tableau and Python, initial analysis is able to show the popularity of different language courses at different times of the year, using student hours as a proxy for popularity.<br>
+Using Python, a Seasonal AutoRegressive Integrated Moving Average with eXogenous regressors (SARIMAX) model was used to predict popular language courses that follow a seasonal trend, with the performance metric being the root mean squared error of the predictions with the actual student hours.<br>
+<br>
+For Problem 2:<br>
+Using AMPL, the scheduling optimization problem was coded out and solved with Gurobi solver, a commercial solver for integer programming.<br>
+Using Python and D3.js, the output of the timetable was visualized on a Gantt chart.<br>
+The scheduling process which was previously done manually is now automated, with smart algorithms to maximize classroom utility levels.<br><br>
+<div style="display:inline-block; width:6%; vertical-align:top;">
+<img style="width:100%; " src="https://1.bp.blogspot.com/-W61W78Hap0A/WXSraO9_yrI/AAAAAAAAA3A/ShBnks9PleAJKEAg6Fpjhm5bU1Z92cy2gCLcBGAs/s1600/Network%2BModeling%2BLegend.png">
+</div>
+Using Python, further information can be extracted regarding degree distribution, diameter (longest shortest path), path, modularity (degree of clustering of nodes) and cliques. View the photos below to know more about the results.<br>
+<br><br>
+<i>Hover over thumbnail to enlarge image, click to open in new tab</i>
+</div><br><br>	
+
 <f4>Network Modeling: Singapore Bus Service (SBS) Network</f4><br>
 <div style="display:inline-block; width:30%; min-width:300px; text-align:center"><br><br>
 <img class="imgDefault" style="width:300px; height:auto;" src="https://3.bp.blogspot.com/-hRQOrEHLXpw/WXSeAFhL3CI/AAAAAAAAA20/43lIYwbPRRUXYmTTja_6EyF-ZWhJkgtogCLcBGAs/s1600/SBS.jpg" alt="SBS">
