@@ -13,7 +13,7 @@
 				background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxASEhIQEhISEBUVEBUSFRUVEA8QFRUVFRUXFxUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDg0NDisZFRkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAQIDBwT/xAApEAEBAAIBAwIFBQEBAAAAAAAAAQIRIQMxQVFhEpGhsfBxgcHR4fET/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD3FJVAAABnfPf9mgTajOeegaElJQN8qm1AAAEm1AAAoAAAJN+VAAS3SfEDQJKCgACZZaWUGed+zQAaBMbsFSxYAEAE+Gd1SqAADOOV54aEuQKJKoES39/kmWciyg5dPO7vHn29I7JIoM52+FtUB8/WzvE1ZzO+vF34q42+l+n9unUx3859LGpAIoAAAAAx1ctS/pWpXLrdPi3ntvvb9Gsenr1+d+wOljMkiysUHQYw22AMyXbQAm/CgJcoRQHPJrXO9tAzg0mlBMpssUAAsAExx1woAAJYqa5UAAANgAABpnLfhoAGOpnqA2Jjlv8AKoM3Gd1UABNAqU34LAKWKgGOOoqb50oM3Ob00mvKgJldcqASpcfKgAigAAAkoJhlvw0AGxnLHbQCXnhQATEtBUpjltQElWAM/DO7Vozcd9waCJQKoAAk9wUABJSVQBm5c6aAAAAAZzw20gKEATasZZam/ZrG7Ayy0rGeErWM0BIqZXTHRy38797oG5VE2CfFzpoAAc7jd9/H9A1MedraqUFKM5yeQXG75Kz08NSNglpLtMsTHjhBm9Kb7fn5t0glUUct5+wDpVS0lBz62V12v0awu/H2aym+FAS4qAzjjxppJVoAM5264BnPpY3xP11Gen0p6S82czfa3TrFgM3icT5NJtQAABJdmV17goIClZy34aATHKVUgKlVnLGUGklUAAAAA2iWSbqgozjjzeVgKkpfzjbn05d3/viA6gkAsUSQCVUJQIWKkoGOOlTSgCSLQBJFBKbKoJ8M3tUqgAx1LfHqDYzu+gDWwTnfsBljskUgCZXyqaBOnluNJPRQGZnN6U0CgAmUhjNKAAAJzwky500DOeWmgAE7qAzcdzVaAIAAAAAAAAlUBIKAmlS7UElUAEyJVBJdqigmzJMsJWgc25SaIAtAE3xsxvCgIsgAJtXOdPnfPzoOlAAABJPKgAkMspHOdWc/QHUABmZc6WqAbEBQTQJjnLtpnHCTZjlsFiiZb8AoJAJFEyy0CTG73v7LpZQEsTCajQAAAM5XXu0AAACWgrOOOttAMXJqVn4WpiCpsc5hd979Pf8AP3B1SxQARQRUpQLVSKCWJnvXBjnvbQJFEx35BQAAAIAAmzK6c8sN2Xf2B1Gfhvrfp/QDQAA5S5bv56/66gBsABNAokKBtXGY5b/z+NusBUyulYzwlBsSTSgaExqgDjnldusAkU2AAAAAUADYAFTGceqgCXKTvwoDhn1ZuedXfHPiz+XTDqS+Zf0srOeG7N+v8V07T1BQgABsBKoADOVvGgW0lVJQUSrATLFQBzw3vl0EoKmUUASRLlzrTQAJIDH/AK+1R1AAAAASqAAAAAAAAAAAJVAAABKAKACKAAAAAP/Z);
 				background-repeat:repeat;
 				background-attachment:fixed;}
-			@font-face{
+			@font-face {
 				font-family: 'Calibri';
 				src: url('Calibri.eot'); /* IE9 Compat Modes */
 				src: url('Calibri.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -24,7 +24,6 @@
 			f2 {font-size:130%; font-weight:bold; line-height:1.2;}
 			f3 {font-size:437.5%; font-weight:bold; color:#FFD700; line-height:0.8;}
 			f4 {font-size:120%; font-weight:bold; line-height:1.4;}
-			f5 {font-size:200%; color:#FFD700; line-height:1.2}
 			i {color:black; font-style:italic;}
 			b {color:black;}
 			u {color:black; border-bottom:1px dashed #ff3366;}
@@ -32,9 +31,6 @@
 			a:link {color:white; text-decoration:none;}
 			a:visited {color:white;}
 			a:hover {color:#FFD700;}
-			a[href^="tel"]{color:inherit; text-decoration:none;}
-			a[href^="mail"]{color:inherit; text-decoration:none;}
-			a[href^="http:"]{color:inherit; text-decoration:none;}
 			.banner {
 				background-color:black; position:fixed; z-index:999; top:0; left:0; right:0; width:99%;
 				height:auto; border-bottom:2px solid #FFD700;
@@ -42,13 +38,57 @@
 			.mainbody {
 				background-color:white; position:relative; top:120px; left:10%; width:80%; height:auto;
 				display:table; overflow:auto;}
-                        .centerbanner {display:inline-block; position:center;}
-			.leftbanner {display:inline-block; position:absolute; top:15%; right:62%; text-align:right;}
-			.rightbanner {display:inline-block; position:absolute; top:22%; left:62%; text-align:left;}
+			.modmonths {
+				filter:alpha(opacity=95); opacity:.95; -webkit-transition-duration:.50s;
+				cursor:default; display:inline-block; position:relative; margin-bottom:2px;
+				width:30%; padding-top:0.3%; padding-bottom:0.3%; padding-left:0.75%; padding-right:0.75%;
+				text-align:center; color:black; text-decoration:none;}
+			.mod {
+				filter:alpha(opacity=95); opacity:.95; -webkit-transition-duration:.50s;
+				cursor:default; display:inline-block; position:relative; margin-bottom:2px;
+				width:30%; padding-top:0.3%; padding-bottom:0.3%; padding-left:0.75%; padding-right:0.75%;
+				text-align:center; color:black; text-decoration:none;}
+			.mod:hover {font-style:italic;}
+			.hoverpopup {
+				visibility:hidden; background-color:white; width:98%; height:auto; pointer-events:none;
+				position:absolute; top:100%; left:0;
+				text-align:left; color:#000; padding-left:2%}
+			.hoverpopup::after {
+				content:" "; position:absolute; bottom:100%; left:50%; margin-left: -7px;
+				z-index: 9999; border-width:5px; border-style:solid; border-color:transparent transparent white transparent;}
+			.mod:hover .hoverpopup 	{visibility:visible;}
+			.imgDefault {height:200px;}
+			.imgHoverP img {height:30px; float:left; margin-left:10px; position:relative;}
+			.imgHoverP span {
+				position:fixed; top:0; left:0; bottom:0; right:0;
+				display:none; z-index:9999; background-color:rgba(0, 0, 0, 0.7);
+				pointer-events:none;}
+			.imgHoverP:hover span {display:block;}
+			.imgHoverP:hover span img {
+				height:87.5%; max-width:90%; top:5%; left:50%;
+				-webkit-transform:translateX(-50%); -ms-transform:translateX(-50%); transform:translateX(-50%);}
+			.imgHoverL img {height:30px; float:left; margin-left:10px; position:relative;}
+			.imgHoverL span	{
+				position:fixed; top:0; left:0; bottom:0; right:0;
+				display:none; z-index:9999; background-color:rgba(0, 0, 0, 0.7);
+				pointer-events:none;}
+			.imgHoverL:hover span {display:block;}
+			.imgHoverL:hover span img {
+				height:auto; width:87.5%; left:5%; top:50%;
+				-webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%);}
+			.caption {
+				display:inline-block; position:absolute; top:92.5%; z-index:9999;
+				height:auto; width:auto; max-width:80%; 
+				left:50%; -webkit-transform:translateX(-50%); -ms-transform:translateX(-50%); transform:translateX(-50%);
+				text-align:center; font-size:1.5em; color:white; padding:3px 0;}
+			.onlydesktop {height:auto; display:block;}
+			.onlymobile {height:0; display:none;}
 			@media (max-width:800px) {
-                                .centerbanner {height:auto; position:center; top:20vh; left:5%; width:90%;}
-				.leftbanner {height:auto; position:relative; top:20vh; left:5%; width:90%; text-align:left;}
-				.rightbanner {height:auto; position:relative; top:20vh; left:5%; width:90%;}
+				.onlydesktop {height:0; display:none;}
+				.onlymobile {height:auto; display:block;}
+				.imgHoverP:hover span {display:none;}
+				.imgHoverL:hover span {display:none;}
+				.caption {display:none;}
 			}
 		</style>
 	</head>
@@ -62,57 +102,896 @@
 			</span>
 			<div style="text-align:right;">
 				<span style="font-size:100%; color:#fff; padding-bottom:1%; padding-right:2%;">
-					<a href="https://kayjan.github.io/"><span style="color:#FFD700;">Profile</span></a> |
-					<a href="https://kayjan.github.io/education/">Education and Projects</a> |
+					<a href="https://kayjan.github.io/">Profile</a> |
+					<a href="https://kayjan.github.io/education/"><span style="color:#FFD700;">Education and Projects</span></a> |
 					<a href="https://kayjan.github.io/leadership/">Leadership and Achievements</a> |
 					<a href="https://kayjan.github.io/cv/">CV</a> |
 					<a href="https://kayjan.github.io/contact/">Contact</a>
 				</span>
-			</div></div>
-
-		<div class="mainbody" style="position:absolute; top:20vh; left:5%; width:90%; text-align:center; font-size:1.1em;"><br><br>
-			<div class="centerbanner" style="min-width:230px;">
-				<img style="width:22%; min-width: 230px;" src="https://1.bp.blogspot.com/-N0QlFUXGg7o/WZNQ9nydeEI/AAAAAAAAA8A/bYz3Le4s6mk31qie1cgE0Wwn3etndSi2ACLcBGAs/s1600/me.png" alt="Wong Kay Jan">
-			</div>
-
-			<div class="leftbanner" style="min-width:230px;">
-				A highly motivated and creative individual with<br>
-				strong interest in finance and technology.<br>
-				Possesses strong analytical, reasoning and problem-solving skills.<br>
-				A forward looking individual with outstanding communication,<br>
-				teamwork and ability to navigate in a global environment.
-				<br><br>
-				<b>Academic Programme:</b><br>
-				Singapore University of Technology and Design (SUTD)
-				<br>
-				B.Eng Engineering Systems and Design (Financial Services)
-				<br><br>
-				National University of Singapore (NUS)
-				<br>
-				M.Comp Computer Science
-				<br><br><br><br>
-			</div>
-
-			<div class="rightbanner" style="min-width:230px;">
-				<a href="mailto:kayjan_wong@alumni.sutd.edu.sg">
-					<img style="height:30px; vertical-align:middle" src="https://2.bp.blogspot.com/-8994mNQGjxM/WZMDWWSDqpI/AAAAAAAAA6Y/4a8GdWCbXRQ9XCUNDjjsOfMREl0M4Iv7ACLcBGAs/s1600/2.%2BEmail.png">
-					<span style="vertical-align:middle;">&nbsp;kayjan_wong@alumni.sutd.edu.sg</span></a>
-				<br><br>
-				<img style="height:30px; vertical-align:middle" src="https://2.bp.blogspot.com/-xy4E-kHHM0k/WZMDWrLYmtI/AAAAAAAAA6c/gvfkR8yJrRcxeCCvqCEKUH9QvXVj13VlQCLcBGAs/s1600/3.%2BLocation.png">
-				<span style="vertical-align:middle;">&nbsp;Singapore</span>
-				<br><br>
-				<img style="height:30px; vertical-align:middle" src="https://3.bp.blogspot.com/-pm8k7osi7m4/WZMDXFtPy-I/AAAAAAAAA6k/zUitC-pcfhAoXe3uweopZ1bw_gTghXztwCLcBGAs/s1600/4.%2BSkype.png">
-				<span style="vertical-align:middle;">&nbsp;kayjanw</span>
-				<br><br>
-				<a href="http://linkedin.com/in/kayjan" target="_newtab">
-					<img style="height:30px; vertical-align:middle" src="https://4.bp.blogspot.com/-FjCnoBWnJRI/WZMDXbMS2BI/AAAAAAAAA6o/bQP8OtZXFa0GHbiFZtXGvyW2PUJnHv10ACLcBGAs/s1600/5.%2BLinkedin.png">
-					<span style="vertical-align:middle;">&nbsp;linkedin.com/in/kayjan</span></a>
-				<br><br>
 			</div>
 		</div>
 
-		<div style="position:fixed; right:1%; bottom:0; padding:0; border:0;">
-			<p style="font-size:65%">Copyright 2020 Wong Kay Jan</p>
+
+		<div class="mainbody">
+			<div style="display:inline-block; padding:2%; width:100%">
+				<f1><b>Education</b></f1><br><br>
+				<div style="padding-left:20px">
+					
+					<f2>National University of Singapore</f2><br>
+					<f2>Master of Computing, Computer Science (CS)</f2><br>
+					<div style="display:flex; justify-content:space-between; width:96%;">
+						<font style="color:#FFD700; font-weight:bold">Jan 2020 - Current
+							<div class="nav">Singapore</font></div></div>
+					Current GPA: NA / 5.00<br>
+					Expected Date of Graduation: May 2022<br>
+					<br><br>
+					
+					<f2>Singapore University of Technology and Design</f2><br>
+					<f2>Bachelor of Engineering, Engineering Systems and Design (ESD), Summa Cum Laude</f2><br>
+					<div style="display:flex; justify-content:space-between; width:96%;">
+						<font style="color:#FFD700; font-weight:bold">May 2015 - Aug 2018
+							<div class="nav">Singapore</font></div>
+					</div>
+					ESD Focus Track: Financial Services<br>
+					Awarded Asian Leadership Programme Scholarship, Honours List for Freshmore Terms and Top Performing Student for Financial Services Focus Track<br>
+					Represented College in CFA Institute Research Challenge (Season 2017-2018)<br>
+					Course studied: Details below<br>
+					<br><br>
+					
+					<f2>Zhe Jiang University</f2><br>
+					<f2>Asian Leadership Programme Scholarship, Summer Exchange</f2><br>
+					<div style="display:flex; justify-content:space-between; width:96%;">
+						<font style="color:#FFD700; font-weight:bold">May 2016 - Aug 2016
+							<div class="nav">China</font></div>
+					</div>
+					Awarded to only 93 students of the cohort<br>
+					Researched, designed and crafted ceramic products using traditional techniques in Jing De Zhen, the porcelain capital of China<br>
+					Course studied: Design Fiction, Design Thinking and Expression, History of Chinese Painting<br>
+					<br><br>
+					
+					<f2>Pioneer Junior College</f2><br>
+					<f2>GCE A-Level, Rank Points 85 / 90</f2><br>
+					<div style="display:flex; justify-content:space-between; width:96%;">
+						<font style="color:#FFD700; font-weight:bold">Mar 2013 - Nov 2015
+							<div class="nav">Singapore</font></div>
+					</div>
+					Awarded Principal's List, Certificate of Academic Achievement and Award for Achievement, Good Leadership and Service<br>
+					Represented College and Singapore in World Scholars’ Cup, a prestigious international multi-disciplinary academic decathlon, clinching numerous accolades<br>
+					Member of Sirius Scholar Programme for good academic standing and excellent conduct<br>
+					Member of Nobel House Executive Committee, organizing House bonding activities and leading the House cheers in sports and other events held in school<br>
+					Course studied: H2 Physics, Chemistry, Mathematics and Economics<br>
+					<br><br>
+					
+					<f2>Anderson Secondary School</f2><br>
+					<f2>GCE O-Level, L1R5: 6 (Raw: 10) </f2><br>
+					<div style="display:flex; justify-content:space-between; width:96%;">
+						<font style="color:#FFD700; font-weight:bold">Jan 2009 - Nov 2012
+							<div class="nav">Singapore</font></div>
+					</div>
+					Awarded Good Progress Award<br>
+					Represented school as commander for Girl Guides Thinking Day 2011<br>
+					Clinched Girl Guide Singapore Puan Noor Aishah (PNA) Gold Award for 3 consecutive years<br>
+					Course studied: Double Science, Double Mathematics, Double Humanities and Higher Chinese<br>
+					<br><br>
+					
+					
+					<div class="onlymobile">
+						<f2>University Curriculum</f2><br>
+						<br>
+						<b>Relevant Freshmore Courses:</b><br>
+						Advanced Maths I<br>
+						Advanced Maths II<br>
+						Modelling the Systems World<br>
+						<br>
+						<b>Relevant ESD Core Courses:</b><br>
+						Advanced Topics in Optimization<br>
+						Engineering Systems Design<br>
+						Decision Analysis<br>
+						Introduction to Stochastic Modelling<br>
+						Network Modelling<br>
+						Operations Management<br>
+						Optimization<br>
+						Probability<br>
+						Project Management<br>
+						Simulation<br>
+						Statistics<br>
+						Quality & Reliability<br>
+						<br>
+						<b>Relevant Financial Services Electives:</b><br>
+						Derivative Pricing and Risk Management<br>
+						Financial Systems Design<br>
+						Investment Science<br>
+						Machine Learning<br>
+						The Analytics Edge<br>
+						<br>
+						<b>Relevant Humanities, Arts and Social Sciences (HASS):</b><br>
+						Microeconomics<br>
+						Organizational Processes<br>
+						The Word and the World<br><br>
+						View the full list on desktop version.<br>
+						<br><br>
+					</div>
+					
+					
+					<div class="onlydesktop">
+						<f2>University Curriculum</f2><br><br>
+						<div class="modmonths"><b>Jan - Apr</b></div>
+						<div class="modmonths"><b>May - Aug</b></div>
+						<div class="modmonths"><b>Sep - Dec</b></div>
+						
+						
+						<div class="mod"></div>
+						<div class="mod" style="z-index:17; background-color:#D3D3D3">
+							Advanced Maths I
+							<span class="hoverpopup"><p>
+								Advanced Maths I provides firm foundations of single variable calculus. Students will learn the basic concepts, techniques, and applications of two branches of calculus - differentiation and integration.
+								<br><br>
+								Topics covered include Computational of Derivatives, Trigonometric Functions, Mean Value Theorem, Newtons Method, Fundamental Theorem of Calculus, Techniques of Integration etc.
+								</p></span></div>
+						<div class="mod" style="z-index:17; background-color:#D3D3D3">
+							Advanced Maths II
+							<span class="hoverpopup"><p>
+								Advanced Maths II is divided into Linear Algebra and Vector Calculus. Linear Algebra introduces methods of finding solution vector x in the equation Ax = b. Vector Calculus deals with single variable and multivariable functions.
+								<br><br>
+								Topics covered include Fundamental Theorem of Linear Algebra, Eigenvalues and Eigenvectors of a Matrix, Partial Derivatives and Linear Approximations to Multivariable functions, Level Curves, Vector Fields etc.
+								</p></span></div>
+						
+						<div class="mod"></div>
+						<div class="mod" style="z-index:16; background-color:#D3D3D3">
+							Chemistry and Biology: Natural World
+							<span class="hoverpopup"><p>
+								Chemistry and Biology: Natural World presents the complementary nature of chemistry and biology by providing a solid understanding of the fundamentals of general chemistry, biochemistry, and molecular biology. Throughout the course, emphasis is placed on scientific methodologies, experimental design, problem-solving, and data analysis.
+								<br><br>
+								Topics covered include concepts of Atomic Structure, Thermodynamics, Acid-Base Reactions, Reaction Kinetics and Catalysis.
+								</p></span></div>
+						<div class="mod" style="z-index:16; background-color:#D3D3D3">
+							<b>*</b>Introduction to Design
+							<span class="hoverpopup"><p>
+								Introduction to Design introduces students to concepts of design at a variety of scales and through both engineering and architectural design disciplines. This course expose students to design processes, modes of thinking and analysis, relationships between form, space, structure and materiality, and social and cultural aspects of design.
+								</p></span></div>
+						
+						<div class="mod"></div>
+						<div class="mod" style="z-index:15; background-color:#D3D3D3">
+							<b>*</b>Physics I
+							<span class="hoverpopup"><p>
+								Physics I is a first year mechanics course for engineering students, based on corresponding Physics I course offered at MIT.
+								<br><br>
+								Topics covered include One Dimensional Motion, Two Dimensional Motion, Force and Newton's Law of Motion, Energy, Systems of Particles, Center of Mass, Momentum conservation, and Two Dimensional Rotational Motion Kinematics and Dynamics.
+								</p></span></div>
+						<div class="mod" style="z-index:15; background-color:#D3D3D3">
+							Physics II
+							<span class="hoverpopup"><p>
+								Physics II is a first year electromagnetism course for engineering students, based on similar course offered at MIT.
+								<br><br>
+								Topics covered include Electrostatics (Coulomb's Law, Gauss' Law), Electric Structure of Matter, Electric Current (Ohm's Law, DC Circuit Theory with capacitors), Magnetostatics (Lorentz Force Law, Biot-Savart Law, Ampere's Law), Time-Varying Fields (Faraday's Law of Induction), Maxwell's Equations (Poynting vector), Electromagnetic Waves.
+								</p></span></div>
+						
+						<div class="mod"></div>
+						<div class="mod" style="z-index:14; background-color:#D3D3D3">
+							World Civilisations and Texts
+							<span class="hoverpopup"><p>
+								World Civilisations and Texts equips students with critical reading, writing, and thinking skills by engaging with the interpretative richness of these major documents of human civilisation. As members of a larger community of interpretation, students will learn to identify the connections between various texts and the ways that conversations develop between thinkers throughout history. They will be exposed to different ways of reading and interpreting classic texts and encouraged to develop their own interpretations.
+								<br><br>
+								Topics covered include Gender and Sexuality, Ecological Implications, Ethics, Historio-political lens and Literature and Narrative.
+								</p></span></div>
+						<div class="mod" style="z-index:14; background-color:#D3D3D3">
+							Theorising Society, The Self, And Culture
+							<span class="hoverpopup"><p>
+								Theorising Society, The Self, And Culture is a social science course that provide students with the conceptual tools necessary to make sense of the complex problems that they face in the modern world.
+								<br><br>
+								Topics covered include What is society and what are the social sciences, How is society organized and how does it change, How and why do people act and How do people express group values and norms.
+								</p></span></div><br><br>
+						
+						<div class="mod" style="z-index:13; background-color:#D3D3D3">
+							<b>*</b>Engineering in the Physical World
+							<span class="hoverpopup"><p>
+								Engineering in the Physical World provides students with necessary framework to understand, model and engineer the physical world at micro, macro or lumped scale.
+								<br><br>
+								Topics covered include Molecular Origin of Thermal and Mechanical Phenomena, Chemical and Electrical Domains, Statistical Mechanics to Thermodynamics and Macroscopic Behavior; Conservations Law for Energy, Mass, Momentum, Origins and Limits of Macroscopic Constitutive Relations, Physical Systems (Lumped Approximations, Equilibrium Networks) and Applications to Energy and Materials.
+								</p></span></div>
+						<div class="modmonths"></div>
+						<div class="mod" style="z-index:13; background-color:#00CC66">
+							<b>**</b>Engineering Systems Design
+							<span class="hoverpopup"><p>
+								Engineering Systems Design introduces various engineering systems and challenges associated with their design, planning and control. This course familiarize students with important industrial applications where system thinking and modelling improve system performance. This includes identifying, evaluating and modelling the objects of an engineering system, the stakeholders, the key performance criteria, key trade-offs, critical constraints, uncertainties and risks.
+								<br><br>
+								Topics covered include Modelling, Analysis and working with real data and leverage tools and methods from data analysis, probability and optimization.
+								</p></span></div>
+						
+						<div class="mod" style="z-index:12; background-color:#D3D3D3">
+							Modelling the Systems World
+							<span class="hoverpopup"><p>
+								Modelling the Systems World is divided into Systems Modelling and Systems Optimisation. Systems Modelling introduces the basics of mathematical modelling, Systems Optimisation introduces students to mathematical tool for optimisation.
+								<br><br>
+								Topics covered include Differential Equations, Laplace Transform, Optimisation, Numerical Solution Algorithms and Networks.
+								</p></span></div>
+						<div class="modmonths">Summer Exchange</div>
+						<div class="mod" style="z-index:12; background-color:#00CC66">
+							Optimization
+							<span class="hoverpopup"><p>
+								Optimization covers a broad range of optimization algorithms and models.
+								<br><br>
+								Topics covered include Linear Programming, Simplex Algorithm, Duality, Sensitivity Analysis, Two Player Zero-Sum Games, Network Optimization, Minimum Cost Flow, Network Simplex Algorithm, Integer Programming, Branch and Bound Methods, Cutting Plane Methods and Dynamic Programming.
+								</p></span></div>
+						
+						<div class="mod" style="z-index:11; background-color:#D3D3D3">
+							<b>*</b>The Digital World
+							<span class="hoverpopup"><p>
+								The Digital World introduces students to the principles of modularity and abstraction, two fundamental ideas in many areas of design.
+								<br><br>
+								Topics covered include Object-Oriented Programming (OOP) and how to model state machines using abstraction provided in OOP in Python programming language.
+								</p></span></div>
+						<div class="modmonths">@ Zhe Jiang University</div>
+						<div class="mod" style="z-index:11; background-color:#00CC66">
+							Probability
+							<span class="hoverpopup"><p>
+								Probability provides students with the basic tools for modelling and analyzing situations that involve uncertainty and will consider applications in various fields.
+								<br><br>
+								Topics covered include Axioms of Probability, Conditional Probability and Independence, Random Variables (Discrete, Continous, Jointly Distributed), Random Vectors, Probability Distribution, Properties of Expectation and Limit Theorems.
+								</p></span></div>
+						
+						<div class="mod" style="width:14.1%; z-index:10; background-color:#D3D3D3">
+							<b>*</b>Biology
+							<span class="hoverpopup" style="width:201%"><p>
+								Biology focuses on the fundamental principles of cellular biology and genetics. The course would focus on the intrinsic and extrinsic factors that influence the normal functioning of biological systems at different levels or organization and how current technology has driven scientific investigation and advancement of our understanding of biological systems.
+								<br><br>
+								Topics covered include Cell Signaling, Cell Cycle, Cell Cycle Regulation, Sexual Reproduction, Genetic Analytics in Drosophila, Human Genetics, and Cancer.
+								</p></span></div>
+						<div class="mod" style="width:14.1%; z-index:10; background-color:#D3D3D3">
+							Intro to Phys Chem
+							<span class="hoverpopup" style="left:-102%; width:201%"><p>
+								Introduction to Physical Chemistry presents a solid foundation of the fundamentals of physical chemistry from the atomic level to the molecular level.
+								<br><br>
+								Topics covered include Semiconductors, Quantum Dots, Spectroscopy, Transition Metals and Electrochemistry.
+								</p></span></div>
+						<div class="modmonths"><b>*</b>China in China</div>
+						<div class="mod" style="z-index:10; background-color:#FFA500">
+							Organizational Processes
+							<span class="hoverpopup"><p>
+								Organizational Processes is organized around three different perspectives on organizations: the strategic design perspective, the political perspective, and the cultural perspective. Each perspective offers a different approach on what an organization does, and correspondingly offers different 'tools for action'. The course will also probe some of the psychological and social processes that inherent in organizations and examine the implications of these insights for understanding the prospects and challenges of working in organizations.
+								</p></span></div><br><br>
+						
+						<div class="mod" style="z-index:9; background-color:#00CC66">
+							<b>**</b>Operations Management
+							<span class="hoverpopup"><p>
+								Operations Management provides students with an introduction to methods for managing manufacturing and service operations. Special emphasis will be given to the link between operational issues and strategic objectives regarding cost, responsiveness, flexibility, product variety, and customer differentiation. This course also discuss the implications of various emerging technologies, business practices and government regulations.
+								<br><br>
+								Topics covered include Production Planning and Scheduling, Inventory Control, Supply Chain Coordination, Service System Design and Queuing Theory.
+								</p></span></div>
+						<div class="modmonths"></div>
+						<div class="mod" style="width:14.1%; z-index:9; background-color:#00CC66">
+							Decision Analysis
+							<span class="hoverpopup" style="width:201%"><p>
+								Decision Analysis introduces decision analysis tools and methods with a focus on decision making under uncertainty and the structuring of hard decision problems in engineering, business and public policy contexts. The value of flexibility in engineering systems is also appreciated through building models.
+								<br><br>
+								Topics covered include discounted cash flow analysis, heuristics and biases, structuring and solving decision trees, applying Bayes' Theorem to update prior distributions upon observing new information and calculate the value of information, expected utility theory and modelling using Monte Carlo simulation.
+								</p></span></div>
+						<div class="mod" style="width:14.1%; z-index:9; background-color:#00CC66">
+							Quality & Reliability
+							<span class="hoverpopup" style="left:-102%; width:201%"><p>
+								Quality & Reliability introduces modern methods and strategies (i.e. statistical quality control, design of experiments, six sigma) to analyze, manage and improve engineering quality and reliability.
+								<br><br>
+								Topics covered include key concepts, principles and methods for quality design and their applications to various areas in practice.
+								</p></span></div>
+						
+						<div class="mod" style="z-index:8; background-color:#00CC66">
+							Statistics
+							<span class="hoverpopup"><p>
+								Statistics provides an introduction to applied statistics and data analysis. Applications and examples based on engineering systems data will be given.
+								<br><br>
+								Topics covered include Collecting and Exploring Data, Estimation and Hypothesis Testing, Linear Regression, Analysis of Variance and Elementary Methods in Non-Parametric Statistics.
+								</p></span></div>
+						<div class="modmonths">Internship</div>
+						<div class="mod" style="width:14.1%; z-index:8; background-color:#00CC66">
+							Simulation
+							<span class="hoverpopup" style="width:201%"><p>
+								Simulation introduces the basic ideas of simulation and its use in the analysis of various systems.
+								<br><br>
+								Topics covered include use and examples of simulation, general principles, statistical models, random number generators, analysis of simulation data and applications.
+								</p></span></div>
+						<div class="mod" style="width:14.1%; z-index:8; background-color:#00CC66">
+							Project Mgmt
+							<span class="hoverpopup" style="left:-102%; width:201%"><p>
+								Project Management covers theory, models, methods and skills needed for project management, introducing leadership, communication and teamwork skills as relevant for successful projects.
+								<br><br>
+								Topics covered include network models for conceptualizing projects, planning and scheduling methods for project management, methods for addressing project dynamics due to task uncertainty and project risk, monitoring and rescheduling of projects, project accounting and organizational considerations in managing people and projects.
+								</p></span></div>
+						
+						<div class="mod" style="width:14.1%; z-index:7; background-color:#00CC66">
+							Stochastic Model
+							<span class="hoverpopup" style="width:201%"><p>
+								Introduction to Stochastic Modelling deals with the use of probability to model such situations in which uncertainty is present. This course aims at providing basic tools in the analysis of stochastic models and processes.
+								<br><br>
+								Topics covered include Discrete Time Markov Chains, Poisson Processes, Continuous-time Markov Chains and Queueing Systems.
+								</p></span></div>
+						<div class="mod" style="width:14.1%; z-index:7; background-color:#00CC66">
+							<b>**</b>Network Modelling
+							<span class="hoverpopup" style="left:-102%; width:201%"><p>
+								Network Modelling demonstrates how the analysis of network models and algorithms are applied to designing, planning and operating various types of engineering systems.
+								<br><br>
+								Topics covered include Fundamentals of Graph Theory, Network Structures and Properties, Network Dynamics and Evolution, Network Performance and Information Flows and will illustrate these concepts through variety of technical and sociological examples.</p></span></div>
+						<div class="modmonths">@ KPMG</div>
+						<div class="mod" style="z-index:7; background-color:#4099FF">
+							Investment Science
+							<span class="hoverpopup"></p>
+							Investment Science focus on the financial theory of asset pricing. While it is broad in scope and covers many different topics relating to finance, particular emphasis will be placed on topics related to financial markets.
+							<br><br>
+							Topics covered include present value, asset valuation, expected utility, portfolio selection and the trade-off between risk and return.
+							</p></span></div>
+				
+				<div class="mod" style="z-index:6; background-color:#FFA500">
+					Rice Cultures
+					<span class="hoverpopup"><p>
+						Rice Cultures Technology, Society, and Environment in Asia introduces students to the social scientific study of human-environment interactions through the history and culture of a single agricultural crop: rice. The long history of the cultivation of rice forms the core of an independent origin of civilization, distinct from other Eurasians sites that were all based around wheat/barley and millet. Some scholars hypothesize that the cultivation of rice supports a distinctive Asian form of society and mode of historical or technological development, that differs from standard frameworks of 'Western' modernization. This course explores how the cultivation of rice raises exciting and provocative questions about the relationships among society, technology and environment and asks whether Asia's history and culture of rice and provide an alternative figure of technological development and design, and perhaps a model for a sustainable relationship between human and their natural environments.
+						</p></span></div>
+				<div class="modmonths"></div>
+				<div class="mod" style="z-index:6; background-color:#FFA500">
+					Microeconomics
+					<span class="hoverpopup"><p>
+						Microeconomics seeks to understand economic behavior by starting with individual economic agents - consumer and firms - and move from a bottom-up approach to understand market demand and supply.
+						<br><br>
+						Topics covered include analyzing market in equilibrium, advantages and disadvantages of various market structures and circumstances under which the market runs into difficulties for delivering efficient outcomes.
+						</p></span></div><br><br>
+				
+				<div class="mod" style="z-index:5; background-color:#00CC66">
+					<b>**</b>Capstone (FYP)
+					<span class="hoverpopup"><p>
+						Capstone project brings together students from different  courses to work in design teams, contributing respective expertise and skills to solve real-world challenges. It is a realistic design situation where projects usually span multiple discipines and require team-based efforts to create a solution.
+						<br><br>
+						The project is elaborated below.
+						</p></span></div>
+				<div class="mod" style="z-index:5; background-color:#00CC66">
+					<b>**</b>Capstone (FYP)
+					<span class="hoverpopup"><p>
+						Capstone project brings together students from different  courses to work in design teams, contributing respective expertise and skills to solve real-world challenges. It is a realistic design situation where projects usually span multiple discipines and require team-based efforts to create a solution.
+						<br><br>
+						The project is elaborated below.
+						</p></span></div>
+				<div class="modmonths"></div>
+				
+				<div class="mod" style="z-index:4; background-color:#4099FF">
+					Derivative Pricing and Risk Management
+					<span class="hoverpopup"><p>
+						Derivative Pricing and Risk Management introduces the theory and practice of mathematical finance.
+						<br><br>
+						Topics covered include basics of derivative securities; interest rate and bonds; forward and futures contracts, hedging using futures contracts; option contracts and arbitrage relationship; binomial model, no-arbitrage pricing, risk-neutral pricing, and American options pricing; Brownian motion, Black-Scholes-Merton model, delta hedging, Greek letters, implied volatility, and volatility smile; classical and advanced portfolio management and execution models and strategies.
+						</p></span></div>
+				<div class="mod" style="z-index:4; background-color:#4099FF">
+					Financial Systems Design
+					<span class="hoverpopup"><p>
+						Financial Systems Design is designed for students who are interested in careers in the securities, banking, and financial management and consulting industries, or as quantitative analysts in corporate treasury and finance departments of general manufacturing and service firms.
+						<br><br>
+						Topics covered include portfolio theory, derivatives valuation, and financial risk analysis, completing core courses in stochastic processes, optimization, simulation and statistics.
+						</p></span></div>
+				<div class="modmonths"></div>
+				
+				<div class="mod" style="z-index:3; background-color:#4099FF">
+					Machine Learning
+					<span class="hoverpopup"><p>
+						Machine Learning is the study of algorithms that improve their performance at some task with experience. This course will give an in-depth understanding of a broad range of machine learning algorithms from the basic to state-of-the-art, such as: naïve Bayes, logistic regression, neural networks, clustering, probabilistic graphical models, reinforcement learning and SVMs.
+						<br><br>
+						Topics covered include perception, linear and logistic regression, support vector machines, kernel methods, neural networks and deep learning, clustering, generative models, mixture models and expectation maximization, hidden Markov model, Bayesian networks and reinforcement learning.
+						</p></span></div>
+				<div class="mod" style="z-index:3; background-color:#4099FF">
+					The Analytics Edge
+					<span class="hoverpopup"><p>
+						The Analytics Edge uses data and analytics to give students an edge in improving various aspects of life. The statistical software R and spreadsheets will be used in the course.
+						<br><br>
+						Topics covered include real world examples of how analytics is being used with examples from Moneyball, Watson and the Framingham Heart Study among others, tools of analytics such as linear and logistic regression, classification and regression trees, graphical models, visualization, text analytics, clustering and optimization in practice.
+						</p></span></div>
+				<div class="modmonths"></div>
+				
+				<div class="mod" style="z-index:2; background-color:#FFA500">
+					Global Shakespeares
+					<span class="hoverpopup"><p>
+						Global Shakespeares respond to cinematic productions that restore Shakespeare's characters and themes to popular culture - both in his own time and around the world. This course will read and analyze Shakespeare's original playtexts alongside global cinematic productions of his plays. This course will analyze how these films respond to living issues of politics, gender, race and nationhood.
+						</p></span></div>
+				<div class="mod" style="z-index:2; background-color:#FFA500">
+					The Word and the World
+					<span class="hoverpopup"><p>
+						The Word and the World introduces literary theory and provides a basic understanding of how to approach and interpret texts as a means of analysing them. The course introduces important strategies for engaging with literary texts developed in the twentieth century and beyond, paying special attention to poststructuralist theories, their precursors and legacy.
+						<br><br>
+						Topics covered include Structuralism and Myths, Reading and Deconstruction, Identity Politics, Foucault and the Frankfurt School and Comparativism.
+						</p></span></div>
+				<div class="modmonths"></div>
+				
+				<div class="mod" style="z-index:1; background-color:#CC6699">
+					<b>*</b>Advanced Topics in Optimisation
+					<span class="hoverpopup"><p>
+						Advanced Topics in Optimisation focuses on modelling, formulations and optimisation techniques. This course introduces the basics and design of algebraic modelling languages and spreadsheet models for describing optimisation problems. The application techniques will be applied to proving optimality of schedules, integer programming formulations, heuristics, deterministic and stochastic dynamic optimisation frameworks.
+						<br><br>
+						Topics covered include single machine scheduling, parallel machine environment, flow shop scheduling, job shop scheduling and uncertainties in scheduling
+						</p></span></div><br><br>	
+				
+				<div style="display:inline-block; width:96%; text-align:right">
+					<b>Legend:</b><br>
+					<b>*</b> - Academic Project elaborated below<br>
+					<b>**</b> - Industry Project elaborated below<br>
+					<!-- green #00CC66 orange #FFA500 grey #D3D3D3 blue #4099FF purple #CC6699-->
+					<div class="modmonths" style="width:0.5em; height:0.5em; background-color:#D3D3D3; margin:none;"></div>
+					Freshmore Terms&nbsp;
+					<div class="modmonths" style="width:0.5em; height:0.5em; background-color:#00CC66; margin:none;"></div>
+					ESD Core Modules&nbsp;
+					<div class="modmonths" style="width:0.5em; height:0.5em; background-color:#FFA500; margin:none;"></div>
+					Humanities, Arts and Social Sciences (HASS)&nbsp;<br>
+					<div class="modmonths" style="width:0.5em; height:0.5em; background-color:#4099FF; margin:none;"></div>
+					Financial Services Electives&nbsp;
+					<div class="modmonths" style="width:0.5em; height:0.5em; background-color:#CC6699; margin:none;"></div>
+					Audit Modules<br>
+				</div><br><br>
+			</div>
 		</div>
-		</body>
+		</div>
+	</div>
+<br><br>
+
+
+<div class="mainbody">
+	<div style="display:inline-block; padding:2%; width:100%">
+		<f1><b>Industry Projects</b></f1><br><br>
+		<div style="padding-left:20px">
+			<f4>Capstone (FYP): inlingua School of Languages</f4><br>
+			<div style="display:inline-block; width:30%; min-width:300px; text-align:center"><br><br>
+				<img class="imgDefault" style="width:300px; height:auto;" src="https://4.bp.blogspot.com/-fRifyzNSWRw/W5feonXFb_I/AAAAAAAAA-c/CloEsBIazIosSs2ilgZF8UNZc1pLr_kEQCLcBGAs/s1600/inlingua-school-of-languagesc676a6deef5c6deabfb0ff000028c43c.png" alt="inlingua">
+			</div>
+			<div style="display:inline-block; width:68%; min-width:300px; text-align:left; vertical-align:top;">
+				Problem 1: To find out if the school should have more courses opened for certain languages at certain periods of the year<br>
+				Problem 2: To optimize timetable scheduling (maximize classroom utility) and automate the scheduling process<br>
+				Background: inlingua School of Languages in Singapore offers full-time and part-time language courses, corporate and individual tuition in 16 different languages. They also have global presence with 324 language centres in 37 countries across Europe, Africa, Asia, North and South America as of 2018. There is an absence of data analytics (problem 1) and this project also aims to reduce manual efficiencies in the workflow (problem 2).<br><br>
+				For Problem 1:<br>
+				Using Tableau and Python, initial analysis is able to show the popularity of different language courses at different times of the year, using student hours as a proxy for popularity.<br>
+				Using Python, a Seasonal AutoRegressive Integrated Moving Average with eXogenous regressors (SARIMAX) model was used to predict student hours for popular language courses that follow a seasonal trend, with the performance metric being the root mean squared error of the predictions with the actual student hours.<br>
+				Using D3.js, student hour forecasts for different languages across time was visualized on an interactive plot, and was further integrated into the Admin Portal.<br>
+				<br>
+				For Problem 2:<br>
+				Using AMPL, the scheduling optimization problem was coded out and solved with Gurobi solver, a commercial solver for integer programming. Hard and soft constraints were used to allow flexibility in the optimization model.<br>
+				Using Python, the optimal timetable output was visualized on a Gantt chart, and was further integrated into the Admin Portal.<br><br>
+				This scheduling process, which was previously done manually and on a weekly basis, is now automated with additional smart algorithms to maximize classroom utility levels, generated on a weekly basis.<br>
+				<br><br>
+				<i>Hover over thumbnail to enlarge image, click to open in new tab</i>
+				<div class="imgHoverP">
+					<img src="https://3.bp.blogspot.com/-nxdvg7iL4mI/W5fjIWHkG3I/AAAAAAAAA_M/l8tpZ6-jNAgWTg69MvZRgzL140hIMWeOACLcBGAs/s1600/Capture.PNG" alt="1. Interctive d3.js Student Hours graph with predictions" onclick="window.open('https://3.bp.blogspot.com/-nxdvg7iL4mI/W5fjIWHkG3I/AAAAAAAAA_M/l8tpZ6-jNAgWTg69MvZRgzL140hIMWeOACLcBGAs/s1600/Capture.PNG', '_blank');" />
+					<span><div class="caption">1. Interctive d3.js Student Hours graph with predictions</div>
+						<img src="https://3.bp.blogspot.com/-nxdvg7iL4mI/W5fjIWHkG3I/AAAAAAAAA_M/l8tpZ6-jNAgWTg69MvZRgzL140hIMWeOACLcBGAs/s1600/Capture.PNG" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://1.bp.blogspot.com/-MTpcDp1WVEw/W5fjITVlUJI/AAAAAAAAA_Q/WACfPCsz3HAXbs1JCIELj_VZYkvPMJLhwCLcBGAs/s1600/4b%2BTuesday.PNG" alt="2. Centrality" onclick="window.open('https://1.bp.blogspot.com/-MTpcDp1WVEw/W5fjITVlUJI/AAAAAAAAA_Q/WACfPCsz3HAXbs1JCIELj_VZYkvPMJLhwCLcBGAs/s1600/4b%2BTuesday.PNG', '_blank');" />
+					<span><div class="caption">2. Sample Output Timetable for one day</div>
+						<img src="https://1.bp.blogspot.com/-MTpcDp1WVEw/W5fjITVlUJI/AAAAAAAAA_Q/WACfPCsz3HAXbs1JCIELj_VZYkvPMJLhwCLcBGAs/s1600/4b%2BTuesday.PNG" alt=""></span>
+				</div>
+			</div><br><br>	
+			
+			<f4>Network Modelling: Singapore Bus Service (SBS) Network</f4><br>
+			<div style="display:inline-block; width:30%; min-width:300px; text-align:center"><br><br>
+				<img class="imgDefault" style="width:300px; height:auto;" src="https://3.bp.blogspot.com/-hRQOrEHLXpw/WXSeAFhL3CI/AAAAAAAAA20/43lIYwbPRRUXYmTTja_6EyF-ZWhJkgtogCLcBGAs/s1600/SBS.jpg" alt="SBS">
+			</div>
+			<div style="display:inline-block; width:68%; min-width:300px; text-align:left; vertical-align:top;">
+				To find out relationship between the bus services in Singapore given a network model<br>
+				Background: Undirected graph with nodes representing bus numbers and weight of edges representing the number of common bus stops between buses. There are 322 nodes (buses) and 8958 edges.<br><br>
+				Using Python, initial analysis is able show the different centrality (level of importance) of the network; degree centrality, eigenvector centrality, katz centrality and betweenness centrality. From the top 5 ranking of each centrality, there were only 9 unique bus numbers.<br>
+				Using R, an interactive network, as shown below, is churned out with only the 9 unique bus numbers. It can be noticed that they are very interconnected.<br><br>
+				<div style="display:inline-block; width:6%; vertical-align:top;">
+					<img style="width:100%; " src="https://1.bp.blogspot.com/-W61W78Hap0A/WXSraO9_yrI/AAAAAAAAA3A/ShBnks9PleAJKEAg6Fpjhm5bU1Z92cy2gCLcBGAs/s1600/Network%2BModeling%2BLegend.png">
+				</div>
+				<script src="index_files/htmlwidgets-0.8/htmlwidgets.js"></script>
+				<script src="index_files/d3-4.5.0/d3.min.js"></script>
+				<script src="index_files/forceNetwork-binding-0.4/forceNetwork.js"></script>
+				<div id="htmlwidget-69fa89b8ba5048fd0c3f" style="display:inline-block; width:90%; height:200px;" class="forceNetwork html-widget"></div>
+				<script type="application/json" data-for="htmlwidget-69fa89b8ba5048fd0c3f">{"x":{"links":{"source":[0,0,0,0,0,0,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,5,5,5,5,5,5,5,6,6,6,6,6,6,6,7,7,7,7,7,7,7,8,8,8,8,8,8],"target":[1,2,3,5,6,7,0,2,3,4,5,6,7,8,0,1,3,4,5,6,7,8,0,1,2,4,5,6,7,8,1,2,3,5,6,7,8,0,1,2,3,4,6,8,0,1,2,3,4,5,7,0,1,2,3,4,6,8,1,2,3,4,5,7],"colour":["#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666"]},"nodes":{"name":[10,51,57,61,66,67,130,196,961],"group":["East","Central","Central","East","Central","East","Central","Central","North"]},"options":{"NodeID":"Bus","Group":"Region","colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":14,"fontFamily":"serif","clickTextSize":17.5,"linkDistance":150,"linkWidth":"function(d) { return Math.sqrt(d.value); }","charge":-70,"opacity":1,"zoom":false,"legend":false,"arrows":false,"nodesize":false,"radiusCalculation":" Math.sqrt(d.nodesize)+6","bounded":true,"opacityNoHover":0,"clickAction":null}},"evals":[],"jsHooks":[]}</script>
+				<script type="application/htmlwidget-sizing" data-for="htmlwidget-69fa89b8ba5048fd0c3f">{"viewer":{"width":450,"height":350,"padding":10,"fill":true},"browser":{"width":960,"height":500,"padding":10,"fill":true}}</script><br><br>
+				Using Python, further information can be extracted regarding degree distribution, diameter (longest shortest path), path, modularity (degree of clustering of nodes) and cliques. View the photos below to know more about the results.<br>
+				<br><br>
+				<i>Hover over thumbnail to enlarge image, click to open in new tab</i>
+				<div class="imgHoverP">
+					<img src="https://2.bp.blogspot.com/-UqUfzocV3UI/WXSNLt8ST3I/AAAAAAAAA18/yLRQkxZX80kHi-1eEyhi5tIiimKkJUp-ACLcBGAs/s1600/Network%2BModeling%2B1%2B%2528R%2Bcode%2529.JPG" alt="1. R Code" onclick="window.open('https://2.bp.blogspot.com/-UqUfzocV3UI/WXSNLt8ST3I/AAAAAAAAA18/yLRQkxZX80kHi-1eEyhi5tIiimKkJUp-ACLcBGAs/s1600/Network%2BModeling%2B1%2B%2528R%2Bcode%2529.JPG', '_blank');" />
+					<span><div class="caption">1. R Code</div>
+						<img src="https://2.bp.blogspot.com/-UqUfzocV3UI/WXSNLt8ST3I/AAAAAAAAA18/yLRQkxZX80kHi-1eEyhi5tIiimKkJUp-ACLcBGAs/s1600/Network%2BModeling%2B1%2B%2528R%2Bcode%2529.JPG" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://2.bp.blogspot.com/-MYytrQaXUiw/WXSNLnVluJI/AAAAAAAAA10/SWe6VF6fXtg1L9fdvACbdhubkCYhsjZvgCLcBGAs/s1600/Network%2BModeling%2B2%2B%2528Centrality%2529.JPG" alt="2. Centrality" onclick="window.open('https://2.bp.blogspot.com/-MYytrQaXUiw/WXSNLnVluJI/AAAAAAAAA10/SWe6VF6fXtg1L9fdvACbdhubkCYhsjZvgCLcBGAs/s1600/Network%2BModeling%2B2%2B%2528Centrality%2529.JPG', '_blank');" />
+					<span><div class="caption">2. Centrality</div>
+						<img src="https://2.bp.blogspot.com/-MYytrQaXUiw/WXSNLnVluJI/AAAAAAAAA10/SWe6VF6fXtg1L9fdvACbdhubkCYhsjZvgCLcBGAs/s1600/Network%2BModeling%2B2%2B%2528Centrality%2529.JPG" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://3.bp.blogspot.com/-imRusOiSr9I/WXSNMZpTGbI/AAAAAAAAA2E/nOJowWOw5UYG7Nym3O0LUq7z2q90p-HzwCLcBGAs/s1600/Network%2BModeling%2B3%2B%2528Degree%2BDistribution%2529.JPG" alt="3. Degree Distribution and Diameter" onclick="window.open('https://3.bp.blogspot.com/-imRusOiSr9I/WXSNMZpTGbI/AAAAAAAAA2E/nOJowWOw5UYG7Nym3O0LUq7z2q90p-HzwCLcBGAs/s1600/Network%2BModeling%2B3%2B%2528Degree%2BDistribution%2529.JPG', '_blank');" />
+					<span><div class="caption">3. Degree Distribution and Diameter</div>
+						<img src="https://3.bp.blogspot.com/-imRusOiSr9I/WXSNMZpTGbI/AAAAAAAAA2E/nOJowWOw5UYG7Nym3O0LUq7z2q90p-HzwCLcBGAs/s1600/Network%2BModeling%2B3%2B%2528Degree%2BDistribution%2529.JPG" alt=""></span>
+				</div>
+				<div class="imgHoverL">
+					<img src="https://3.bp.blogspot.com/-4sT5TUCcnTw/WXSNMTXS1LI/AAAAAAAAA2I/GW-dZmZLNo4Aoc6UDvZVrgM6NNFSKTFkgCLcBGAs/s1600/Network%2BModeling%2B4%2B%2528Path%2529.JPG" alt="4. Path" onclick="window.open('https://3.bp.blogspot.com/-4sT5TUCcnTw/WXSNMTXS1LI/AAAAAAAAA2I/GW-dZmZLNo4Aoc6UDvZVrgM6NNFSKTFkgCLcBGAs/s1600/Network%2BModeling%2B4%2B%2528Path%2529.JPG', '_blank');" />
+					<span><div class="caption">4. Path</div>
+						<img src="https://3.bp.blogspot.com/-4sT5TUCcnTw/WXSNMTXS1LI/AAAAAAAAA2I/GW-dZmZLNo4Aoc6UDvZVrgM6NNFSKTFkgCLcBGAs/s1600/Network%2BModeling%2B4%2B%2528Path%2529.JPG" alt=""></span>
+				</div>
+				<div class="imgHoverL">
+					<img src="https://3.bp.blogspot.com/-lA3Zwq3zDnQ/WXSNME0eJHI/AAAAAAAAA2A/bMg749Lws5UF43VN7adBhyZEx5LM5TxvgCLcBGAs/s1600/Network%2BModeling%2B5%2B%2528Modularity%2529.JPG" alt="5. Modularity" onclick="window.open('https://3.bp.blogspot.com/-lA3Zwq3zDnQ/WXSNME0eJHI/AAAAAAAAA2A/bMg749Lws5UF43VN7adBhyZEx5LM5TxvgCLcBGAs/s1600/Network%2BModeling%2B5%2B%2528Modularity%2529.JPG', '_blank');" />
+					<span><div class="caption">5. Modularity</div>
+						<img src="https://3.bp.blogspot.com/-lA3Zwq3zDnQ/WXSNME0eJHI/AAAAAAAAA2A/bMg749Lws5UF43VN7adBhyZEx5LM5TxvgCLcBGAs/s1600/Network%2BModeling%2B5%2B%2528Modularity%2529.JPG" alt=""></span>
+				</div>
+			</div>
+			<br><br>
+			
+			<f4>Operations Management: Inventory Level Optimizing</f4><br>
+			<div style="display:inline-block; width:30%; min-width:300px; text-align:center"><br><br>
+				<img class="imgDefault" style="width:300px; height:auto;" src="https://3.bp.blogspot.com/-3JoeFGdrKsg/WXSNe1TSIhI/AAAAAAAAA2U/Y-IvnLM8wbcob6pgorchodroidOKnkwyQCLcBGAs/s1600/YCH.png" alt="YCH">
+			</div>
+			<div style="display:inline-block; width:68%; min-width:300px; text-align:left; vertical-align:top;">
+				To forecast demand to optimize inventory planning and restocking policy<br>
+				Problem: Company B, a client of YCH, faces stock-out of products due to unexpected demand which result in loss of sales. Also, they are not maximizing profit as they use a pure freight mode, air freight, which is expensive as they do not order in bulk.<br><br>
+				Using R, the products that are most popular are identified and singled out for further analysis.<br>
+				Using Python, by data visualisation, the same popular products corresponds to products that generate highest sales revenue.<br>
+				<br>
+				Our proposed methodology includes<br>
+				1. Remove obsolete products from warehouse<br>
+				By removing obsolete inventory items that are in stock but have not been ordered for more than 2 years, this frees up more space in the warehouse for other fast moving products.<br>
+				<br>
+				2. Identify and readjust the optimal PAR/order-up-to level<br>
+				As Company B uses a PAR (Periodic Automatic Replacement) level model, a pull system inventory control, it employs a just-in-time concept. Loss of sales due to stock-outs can be reduced by readjusting the optimal PAR level.<br>
+				Using statistical analysis, we realized the data of quantity order per day for each product fits a Poisson distribution.<br>
+				By applying the poisson distributed demand, the optimal PAR level is obtained for different fill rate for each product.<br>
+				<br>
+				3. Employ dual freight transportation<br>
+				To reduce transportation cost for Company B, slow freight mode (shipping) can be introduced and used in complementary with the existing fast mode (air freight).<br>
+				Using ExtendSim, the new model of increased par level and dual freight mode can be visualized.<br>
+				<center><img style="width:80%" src="https://3.bp.blogspot.com/-DJ079eW3EnY/WXWqmEn2LAI/AAAAAAAAA4g/tm5rA0JKdVk2R4Y3uTEIyhIk7D6S0WmCwCLcBGAs/s1600/YCH%2BExtendSim%2BSimulation.JPG"></center><br>
+				Our suggested model prioritises shipping as the preferred choice of mode of delivery with par level 6. Unless inventory level drops below 4, air freight will be the preferred choice. Whereas Company B's existing model only consists of air freight mode of delivery and a par level of 5.<br>
+				Running the simulation 10 times, there is significant transport cost savings ($2553 per product per year) and less occurrences of stock-outs. View the photos below to know more about our results.<br>
+				<br><br>
+				<i>Hover over thumbnail to enlarge image, click to open in new tab</i>
+				<div class="imgHoverP">
+					<img src="https://2.bp.blogspot.com/-v_nlFTdYXns/WVT7ss49PbI/AAAAAAAAAzQ/dT4CjczlczMieYgk11XGMUtsZCwq7DJfQCLcBGAs/s1600/Term%2B5%2BOM.jpg" alt="1. Poster" onclick="window.open('https://2.bp.blogspot.com/-v_nlFTdYXns/WVT7ss49PbI/AAAAAAAAAzQ/dT4CjczlczMieYgk11XGMUtsZCwq7DJfQCLcBGAs/s1600/Term%2B5%2BOM.jpg', '_blank');" />
+					<span><div class="caption">1. Poster</div>
+						<img src="https://2.bp.blogspot.com/-v_nlFTdYXns/WVT7ss49PbI/AAAAAAAAAzQ/dT4CjczlczMieYgk11XGMUtsZCwq7DJfQCLcBGAs/s1600/Term%2B5%2BOM.jpg" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://4.bp.blogspot.com/-EwQ-hEsdhzQ/WXWqnNaI0wI/AAAAAAAAA40/n0CnBvVhJVwAy04KWG67xpQD_ZAphFPWQCLcBGAs/s1600/YCH%2BProduct%2Bby%2BPopularity.JPG" alt="2. Product by Popularity" onclick="window.open('https://4.bp.blogspot.com/-EwQ-hEsdhzQ/WXWqnNaI0wI/AAAAAAAAA40/n0CnBvVhJVwAy04KWG67xpQD_ZAphFPWQCLcBGAs/s1600/YCH%2BProduct%2Bby%2BPopularity.JPG', '_blank');" />
+					<span><div class="caption">2. Product by Popularity</div>
+						<img src="https://4.bp.blogspot.com/-EwQ-hEsdhzQ/WXWqnNaI0wI/AAAAAAAAA40/n0CnBvVhJVwAy04KWG67xpQD_ZAphFPWQCLcBGAs/s1600/YCH%2BProduct%2Bby%2BPopularity.JPG" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://4.bp.blogspot.com/-Sqn2xWCKtww/WXWqmw4_XJI/AAAAAAAAA4w/o1YJ2dPns3AgwGsQqdGsCP-__Dk6IgJrwCLcBGAs/s1600/YCH%2BProduct%2Bby%2BSales%2BRevenue.JPG" alt="3. Product by Sales Revenue" onclick="window.open('https://4.bp.blogspot.com/-Sqn2xWCKtww/WXWqmw4_XJI/AAAAAAAAA4w/o1YJ2dPns3AgwGsQqdGsCP-__Dk6IgJrwCLcBGAs/s1600/YCH%2BProduct%2Bby%2BSales%2BRevenue.JPG', '_blank');" />
+					<span><div class="caption">3. Product by Sales Revenue</div>
+						<img src="https://4.bp.blogspot.com/-Sqn2xWCKtww/WXWqmw4_XJI/AAAAAAAAA4w/o1YJ2dPns3AgwGsQqdGsCP-__Dk6IgJrwCLcBGAs/s1600/YCH%2BProduct%2Bby%2BSales%2BRevenue.JPG" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://2.bp.blogspot.com/-do5pnHy8xe8/WXWqmtZcUhI/AAAAAAAAA4s/lxuyRWsl_cous0y_6WRQR8-0WNblUsc3gCLcBGAs/s1600/YCH%2BPoisson%2BDistribution.JPG" alt="4. Poisson Distributed Demand" onclick="window.open('https://2.bp.blogspot.com/-do5pnHy8xe8/WXWqmtZcUhI/AAAAAAAAA4s/lxuyRWsl_cous0y_6WRQR8-0WNblUsc3gCLcBGAs/s1600/YCH%2BPoisson%2BDistribution.JPG', '_blank');" />
+					<span><div class="caption">4. Poisson Distributed Demand</div>
+						<img src="https://2.bp.blogspot.com/-do5pnHy8xe8/WXWqmtZcUhI/AAAAAAAAA4s/lxuyRWsl_cous0y_6WRQR8-0WNblUsc3gCLcBGAs/s1600/YCH%2BPoisson%2BDistribution.JPG" alt=""></span>
+				</div>
+				<div class="imgHoverL">
+					<img src="https://4.bp.blogspot.com/-yVdH1_9inug/WXWqmPaCt4I/AAAAAAAAA4o/AcJYE69stxYdr0e_6LF_nfXa17ZhUVnNgCLcBGAs/s1600/YCH%2BPAR%2BLevel.JPG" alt="5. Adjusted vs Original PAR Level" onclick="window.open('https://4.bp.blogspot.com/-yVdH1_9inug/WXWqmPaCt4I/AAAAAAAAA4o/AcJYE69stxYdr0e_6LF_nfXa17ZhUVnNgCLcBGAs/s1600/YCH%2BPAR%2BLevel.JPG', '_blank');" />
+					<span><div class="caption">5. Adjusted vs Original PAR Level</div>
+						<img src="https://4.bp.blogspot.com/-yVdH1_9inug/WXWqmPaCt4I/AAAAAAAAA4o/AcJYE69stxYdr0e_6LF_nfXa17ZhUVnNgCLcBGAs/s1600/YCH%2BPAR%2BLevel.JPG" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://3.bp.blogspot.com/-DJ079eW3EnY/WXWqmEn2LAI/AAAAAAAAA4g/tm5rA0JKdVk2R4Y3uTEIyhIk7D6S0WmCwCLcBGAs/s1600/YCH%2BExtendSim%2BSimulation.JPG" alt="6. ExtendSim Simulation" onclick="window.open('https://3.bp.blogspot.com/-DJ079eW3EnY/WXWqmEn2LAI/AAAAAAAAA4g/tm5rA0JKdVk2R4Y3uTEIyhIk7D6S0WmCwCLcBGAs/s1600/YCH%2BExtendSim%2BSimulation.JPG', '_blank');" />
+					<span><div class="caption">6. ExtendSim Simulation</div>
+						<img src="https://3.bp.blogspot.com/-DJ079eW3EnY/WXWqmEn2LAI/AAAAAAAAA4g/tm5rA0JKdVk2R4Y3uTEIyhIk7D6S0WmCwCLcBGAs/s1600/YCH%2BExtendSim%2BSimulation.JPG" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://3.bp.blogspot.com/-JGboWqd5pPs/WXWqlwV9reI/AAAAAAAAA4k/6gHQBIfH980w34FxWw4xe_qRpryaWhkSgCLcBGAs/s1600/YCH%2BExtendSim%2BResults.JPG" alt="7. ExtendSim Simulation Results" onclick="window.open('https://3.bp.blogspot.com/-JGboWqd5pPs/WXWqlwV9reI/AAAAAAAAA4k/6gHQBIfH980w34FxWw4xe_qRpryaWhkSgCLcBGAs/s1600/YCH%2BExtendSim%2BResults.JPG', '_blank');" />
+					<span><div class="caption">7. ExtendSim Simulation Results</div>
+						<img src="https://3.bp.blogspot.com/-JGboWqd5pPs/WXWqlwV9reI/AAAAAAAAA4k/6gHQBIfH980w34FxWw4xe_qRpryaWhkSgCLcBGAs/s1600/YCH%2BExtendSim%2BResults.JPG" alt=""></span>
+				</div>
+			</div><br><br>
+			
+			<f4>Engineering Systems Design: Maximising Revenue per Available Time-Based Unit</f4><br>
+			<div style="display:inline-block; width:30%; min-width:300px; text-align:center"><br><br>
+				<img class="imgDefault" style="width:300px; height:auto;" src="https://3.bp.blogspot.com/-YVqBxzSIlCE/WXSNes48mMI/AAAAAAAAA2Q/nboMXW17oQwzhvYNjdopQ3ViXkxEBxypgCLcBGAs/s1600/Park%2BAvenue.png" alt="Park Avenue Hotel">
+			</div>
+			<div style="display:inline-block; width:68%; min-width:300px; text-align:left; vertical-align:top;">
+				To determine the ideal hotel rate based on occupancy rate forecast and other variables in order to maximize revenue.<br>
+				Problem: Hotel prices are not set at the highest walkaway rate; the maximum price that will cause customers to 'walk away' and hence not maximizing their revenue.<br><br>
+				From the preliminary analysis, irrelevant data is eliminated and there was a need to categorize data into weekdays and weekends. 70% of data is also assigned as 'training data' and 30% as 'testing data' to be able to test our final model.<br><br>
+				Our data discovery findings:<br>
+				1. Price and occupancy are not strongly correlated<br>
+				Using R, the scatter diagram of room prices against occupancy yields an R-squared value of 0.07289, implying weak to no correlation.<br><br>
+				2. Setting price using lowess function<br>
+				Using R, a lowess function (scatter plot smoothing tool) calculates and plot the average price of each occupancy. This line is fairly straight and can be used as a guideline for base price or ceiling price.<br><br>
+				3. Events are significant factor of room prices<br>
+				Using R, the lowess function is applied again after splitting the data into 'Days with Events in Singapore' and 'Days without Events in Singapore'. The line is consistently higher across all occupancy rates when there are events in Singapore. The location of events also affect the room prices.<br>
+				<div class="onlydesktop"><center><img style="height:200px" src="https://1.bp.blogspot.com/-Ry9u_G8IhBk/WXaUT4B43vI/AAAAAAAAA5Y/NR9Mz1nTttcuUW8_3Fqk76jEg3TsJg6aQCLcBGAs/s1600/PA%2BPoint%2B2.JPG"><img style="height:200px" src="https://2.bp.blogspot.com/-7-uHN-D_qF8/WXaUT_wl_FI/AAAAAAAAA5c/jgDoEWbXoNA7_AJtc1cAcESIaLVd_l19gCLcBGAs/s1600/PA%2BPoint%2B3.JPG"></center></div><br>
+				4. Month of the year does not affect room prices<br>
+				5. Last week prices can act as a pricing guideline<br>
+				6. Competitor prices can act as a pricing guideline<br><br>
+				From all the factors affecting room prices, a spreadsheet is generated consisting of the lower bound / upper bound rates to set at for different days.<br>
+				Improved pricing model at lower bound rates will give expected revenue increase of 4.2%.<br>
+				<br><br>
+				<i>Hover over thumbnail to enlarge image, click to open in new tab</i>
+				<div class="imgHoverP">
+					<img src="https://2.bp.blogspot.com/-iactxVKEnM0/WVT7sEucu3I/AAAAAAAAAzU/pGQ_u9qEhl0f7fryvNcQXa0c3h72DR6yQCLcBGAs/s1600/Term%2B4%2BESD.png" alt="1. Poster" onclick="window.open('https://2.bp.blogspot.com/-iactxVKEnM0/WVT7sEucu3I/AAAAAAAAAzU/pGQ_u9qEhl0f7fryvNcQXa0c3h72DR6yQCLcBGAs/s1600/Term%2B4%2BESD.png', '_blank');" />
+					<span><div class="caption">1. Poster</div>
+						<img src="https://2.bp.blogspot.com/-iactxVKEnM0/WVT7sEucu3I/AAAAAAAAAzU/pGQ_u9qEhl0f7fryvNcQXa0c3h72DR6yQCLcBGAs/s1600/Term%2B4%2BESD.png" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://3.bp.blogspot.com/-6RKt0a30CtE/WXaS8mFndCI/AAAAAAAAA5Q/IdDxTjqSp3YPKQkXn_4W0iwO4yoKEueyACLcBGAs/s1600/Outline.png" alt="2. Outline" onclick="window.open('https://3.bp.blogspot.com/-6RKt0a30CtE/WXaS8mFndCI/AAAAAAAAA5Q/IdDxTjqSp3YPKQkXn_4W0iwO4yoKEueyACLcBGAs/s1600/Outline.png', '_blank');" />
+					<span><div class="caption">2. Outline</div>
+						<img src="https://3.bp.blogspot.com/-6RKt0a30CtE/WXaS8mFndCI/AAAAAAAAA5Q/IdDxTjqSp3YPKQkXn_4W0iwO4yoKEueyACLcBGAs/s1600/Outline.png" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://1.bp.blogspot.com/-Ry9u_G8IhBk/WXaUT4B43vI/AAAAAAAAA5Y/NR9Mz1nTttcuUW8_3Fqk76jEg3TsJg6aQCLcBGAs/s1600/PA%2BPoint%2B2.JPG" alt="3. Room Rates with Lowess Function" onclick="window.open('https://1.bp.blogspot.com/-Ry9u_G8IhBk/WXaUT4B43vI/AAAAAAAAA5Y/NR9Mz1nTttcuUW8_3Fqk76jEg3TsJg6aQCLcBGAs/s1600/PA%2BPoint%2B2.JPG', '_blank');" />
+					<span><div class="caption">3. Room Rates with Lowess Function</div>
+						<img src="https://1.bp.blogspot.com/-Ry9u_G8IhBk/WXaUT4B43vI/AAAAAAAAA5Y/NR9Mz1nTttcuUW8_3Fqk76jEg3TsJg6aQCLcBGAs/s1600/PA%2BPoint%2B2.JPG" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://2.bp.blogspot.com/-7-uHN-D_qF8/WXaUT_wl_FI/AAAAAAAAA5c/jgDoEWbXoNA7_AJtc1cAcESIaLVd_l19gCLcBGAs/s1600/PA%2BPoint%2B3.JPG" alt="4. Room Rates with Lowess Function filtered by Events" onclick="window.open('https://2.bp.blogspot.com/-7-uHN-D_qF8/WXaUT_wl_FI/AAAAAAAAA5c/jgDoEWbXoNA7_AJtc1cAcESIaLVd_l19gCLcBGAs/s1600/PA%2BPoint%2B3.JPG', '_blank');" />
+					<span><div class="caption">4. Room Rates with Lowess Function filtered by Events</div>
+						<img src="https://2.bp.blogspot.com/-7-uHN-D_qF8/WXaUT_wl_FI/AAAAAAAAA5c/jgDoEWbXoNA7_AJtc1cAcESIaLVd_l19gCLcBGAs/s1600/PA%2BPoint%2B3.JPG" alt=""></span>
+				</div>
+			</div><br><br>
+		</div>
+	</div>
+</div><br><br>
+
+
+<div class="mainbody">
+	<div style="display:inline-block; padding:2%; width:100%">
+		<f1><b>Academic Projects</b></f1><br><br>
+		<div style="display:inline-block; width:30%; min-width:300px; text-align:center">
+		</div>
+		<div style="padding-left:20px">
+			<f4>Advanced Topics in Optimisation: Traveling Salesman Problem</f4><br>
+			<div style="display:inline-block; width:30%; min-width:300px; text-align:center">
+				<img class="imgDefault" src="https://1.bp.blogspot.com/-a9vkafvSoi4/W5fgCTHz1FI/AAAAAAAAA_A/QGYn22kFJvgkl41FYN5nhdc4Y4PcKknNwCLcBGAs/s1600/map.PNG" alt="Map">
+			</div>
+			<div style="display:inline-block; width:68%; min-width:300px; text-align:left; vertical-align:top;">
+				To determine the shortest possible route linking all hawker centres in Singapore, starting and ending the route at Bugis MRT<br><br>
+				Using Python and web scraping techniques, the distance data between different hawker centres were obtained with Google Maps API.<br>
+				Using AMPL, distance optimization problem was coded and solved with Gurobi solver.<br>
+				Using QGIS, it enabled the visualization of spatial data and the shortest optimal route was overlaid over the map.<br>
+				<br><br>
+				<i>Hover over thumbnail to enlarge image, click to open in new tab</i>
+				<div class="imgHoverP">
+					<img src="https://3.bp.blogspot.com/-d30ErK-D_A4/W5fenUDvpEI/AAAAAAAAA-I/skLpHve54ic1V1hM8Yl3ouHfzxhJgrcTACLcBGAs/s1600/Capture0.PNG', '_blank');" />
+					<span><div class="caption">1. Problem Statement 1</div>
+						<img src="https://3.bp.blogspot.com/-d30ErK-D_A4/W5fenUDvpEI/AAAAAAAAA-I/skLpHve54ic1V1hM8Yl3ouHfzxhJgrcTACLcBGAs/s1600/Capture0.PNG" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://2.bp.blogspot.com/-emhBeDQtOm4/W5feobdKssI/AAAAAAAAA-Y/-h1fYdBBCdIrUt-5En2Z-abPiLZiosMSACLcBGAs/s1600/Capture1.PNG', '_blank');" />
+					<span><div class="caption">2. Visual Solution for Problem 1</div>
+						<img src="https://2.bp.blogspot.com/-emhBeDQtOm4/W5feobdKssI/AAAAAAAAA-Y/-h1fYdBBCdIrUt-5En2Z-abPiLZiosMSACLcBGAs/s1600/Capture1.PNG" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://4.bp.blogspot.com/-EAiUY_KNVYE/W5fenS8O0dI/AAAAAAAAA-E/tVSlKnPAUiw_nBc_8I1-jkozC81q_A5kACLcBGAs/s1600/Capture1.5.PNG', '_blank');" />
+					<span><div class="caption">3. Mathematical Formulation for Problem 1</div>
+						<img src="https://4.bp.blogspot.com/-EAiUY_KNVYE/W5fenS8O0dI/AAAAAAAAA-E/tVSlKnPAUiw_nBc_8I1-jkozC81q_A5kACLcBGAs/s1600/Capture1.5.PNG" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://2.bp.blogspot.com/-XZbzS-wIr0o/W5feoGM3v_I/AAAAAAAAA-M/gNd3NV_iQnwtyTgzY_iEk4ZSDGpOhG2dQCLcBGAs/s1600/Capture1.6.PNG', '_blank');" />
+					<span><div class="caption">4. AMPL output for Problem 1</div>
+						<img src="https://2.bp.blogspot.com/-XZbzS-wIr0o/W5feoGM3v_I/AAAAAAAAA-M/gNd3NV_iQnwtyTgzY_iEk4ZSDGpOhG2dQCLcBGAs/s1600/Capture1.6.PNG" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://1.bp.blogspot.com/-n9oyZ2kMq18/W5feog_bEJI/AAAAAAAAA-U/ymR6ZNLaWdMKxHrigUSyieUWZWqsgAdDQCLcBGAs/s1600/Capture2.PNG', '_blank');" />
+					<span><div class="caption">5. Problem Statement 2</div>
+						<img src="https://1.bp.blogspot.com/-n9oyZ2kMq18/W5feog_bEJI/AAAAAAAAA-U/ymR6ZNLaWdMKxHrigUSyieUWZWqsgAdDQCLcBGAs/s1600/Capture2.PNG" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://1.bp.blogspot.com/-lZrzj6gK5gY/W5fenwbarFI/AAAAAAAAA-Q/i3xuGeHzKj0XwSv54HbExy9B6ag3ocfOgCLcBGAs/s1600/Capture%2B3.PNG', '_blank');" />
+					<span><div class="caption">6. Visual Solution for Problem 2</div>
+						<img src="https://1.bp.blogspot.com/-lZrzj6gK5gY/W5fenwbarFI/AAAAAAAAA-Q/i3xuGeHzKj0XwSv54HbExy9B6ag3ocfOgCLcBGAs/s1600/Capture%2B3.PNG" alt=""></span>
+				</div>
+			</div><br><br>
+			
+			<f4>The Digital World: MultiSense</f4><br>
+			<div style="display:inline-block; width:30%; min-width:300px; text-align:center">
+				<img class="imgDefault" src="https://4.bp.blogspot.com/-YgOwtJF_yvA/WXTHPe-lfcI/AAAAAAAAA3s/V90MmHHXB9cng7AXRTFpEf-dB67fQpy5gCLcBGAs/s1600/Digital%2BWorld%2B1D%2BPoster%2B2.png" alt="Poster">
+			</div>
+			<div style="display:inline-block; width:68%; min-width:300px; text-align:left; vertical-align:top;">
+				With the identified problem of inability to find a meeting room in hostel for project discussion and not knowing where certain classrooms are located in school (i.e. Think Tank 16). My group devised a solution whereby a light and temperature sensor will be placed in the room to confirm the occupancy of the meeting room. The data is then uploaded to a firebase periodically and synced over to an application.<br>
+				Applied the knowledge of Python for firebase uploading and Kivy for application user interface.<br>
+				<br><br>
+				<i>Hover over thumbnail to enlarge image, click to open in new tab</i>
+				<div class="imgHoverP">
+					<img src="https://4.bp.blogspot.com/-YgOwtJF_yvA/WXTHPe-lfcI/AAAAAAAAA3s/V90MmHHXB9cng7AXRTFpEf-dB67fQpy5gCLcBGAs/s1600/Digital%2BWorld%2B1D%2BPoster%2B2.png" alt="1. Poster" onclick="window.open('https://4.bp.blogspot.com/-YgOwtJF_yvA/WXTHPe-lfcI/AAAAAAAAA3s/V90MmHHXB9cng7AXRTFpEf-dB67fQpy5gCLcBGAs/s1600/Digital%2BWorld%2B1D%2BPoster%2B2.png', '_blank');" />
+					<span><div class="caption">1. Poster</div>
+						<img src="https://4.bp.blogspot.com/-YgOwtJF_yvA/WXTHPe-lfcI/AAAAAAAAA3s/V90MmHHXB9cng7AXRTFpEf-dB67fQpy5gCLcBGAs/s1600/Digital%2BWorld%2B1D%2BPoster%2B2.png" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://2.bp.blogspot.com/-_LzrXzYF_TI/WXSNLnw3lTI/AAAAAAAAA14/0yGDXtxGPUoLMxrYbt6rNO3o80dJpoS1ACLcBGAs/s1600/Digital%2BWorld%2B%2528Room%2BAllocation%2529.png" alt="2. Schematics" onclick="window.open('https://2.bp.blogspot.com/-_LzrXzYF_TI/WXSNLnw3lTI/AAAAAAAAA14/0yGDXtxGPUoLMxrYbt6rNO3o80dJpoS1ACLcBGAs/s1600/Digital%2BWorld%2B%2528Room%2BAllocation%2529.png', '_blank');" />
+					<span><div class="caption">2. Schematics</div>
+						<img style="background-color:white" src="https://2.bp.blogspot.com/-_LzrXzYF_TI/WXSNLnw3lTI/AAAAAAAAA14/0yGDXtxGPUoLMxrYbt6rNO3o80dJpoS1ACLcBGAs/s1600/Digital%2BWorld%2B%2528Room%2BAllocation%2529.png" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://1.bp.blogspot.com/-3G1iJ1xFYEw/WXTFOPDRwZI/AAAAAAAAA3Q/QY2hhkQD96ESDFjVihlXXkZDgqMCCxW9wCLcBGAs/s1600/Kivy%2B1.JPG" alt="3. Kivy Interface (Main Page)" onclick="window.open('https://1.bp.blogspot.com/-3G1iJ1xFYEw/WXTFOPDRwZI/AAAAAAAAA3Q/QY2hhkQD96ESDFjVihlXXkZDgqMCCxW9wCLcBGAs/s1600/Kivy%2B1.JPG', '_blank');" />
+					<span><div class="caption">3. Kivy Interface (Main Page)</div>
+						<img src="https://1.bp.blogspot.com/-3G1iJ1xFYEw/WXTFOPDRwZI/AAAAAAAAA3Q/QY2hhkQD96ESDFjVihlXXkZDgqMCCxW9wCLcBGAs/s1600/Kivy%2B1.JPG" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://3.bp.blogspot.com/-6iUflPconyM/WXTFOZiGWlI/AAAAAAAAA3Y/ixtWOSUNt-8Y2pr9hkd41wyffL-et3s-wCLcBGAs/s1600/Kivy%2B2.JPG" alt="4. Kivy Interface (Check Availability)" onclick="window.open('https://3.bp.blogspot.com/-6iUflPconyM/WXTFOZiGWlI/AAAAAAAAA3Y/ixtWOSUNt-8Y2pr9hkd41wyffL-et3s-wCLcBGAs/s1600/Kivy%2B2.JPG', '_blank');" />
+					<span><div class="caption">4. Kivy Interface (Check Availability)</div>
+						<img src="https://3.bp.blogspot.com/-6iUflPconyM/WXTFOZiGWlI/AAAAAAAAA3Y/ixtWOSUNt-8Y2pr9hkd41wyffL-et3s-wCLcBGAs/s1600/Kivy%2B2.JPG" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://4.bp.blogspot.com/-JlXZWs5EXu8/WXTFOV-HuDI/AAAAAAAAA3U/a62ofyre3nohiP1udbLCkeIy-HxLb9eVgCLcBGAs/s1600/Kivy%2B3.JPG" alt="5. Kivy Interface (Hostel)" onclick="window.open('https://4.bp.blogspot.com/-JlXZWs5EXu8/WXTFOV-HuDI/AAAAAAAAA3U/a62ofyre3nohiP1udbLCkeIy-HxLb9eVgCLcBGAs/s1600/Kivy%2B3.JPG', '_blank');" />
+					<span><div class="caption">5. Kivy Interface (Hostel)</div>
+						<img src="https://4.bp.blogspot.com/-JlXZWs5EXu8/WXTFOV-HuDI/AAAAAAAAA3U/a62ofyre3nohiP1udbLCkeIy-HxLb9eVgCLcBGAs/s1600/Kivy%2B3.JPG" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://3.bp.blogspot.com/-AgsQlr1anL4/WXTFO3GB2aI/AAAAAAAAA3c/aIlTTohRAgU48oxeEjGGMIYwsD-pLBPRgCLcBGAs/s1600/Kivy%2B4.JPG" alt="6. Kivy Interface (Navigation)" onclick="window.open('https://3.bp.blogspot.com/-AgsQlr1anL4/WXTFO3GB2aI/AAAAAAAAA3c/aIlTTohRAgU48oxeEjGGMIYwsD-pLBPRgCLcBGAs/s1600/Kivy%2B4.JPG', '_blank');" />
+					<span><div class="caption">6. Kivy Interface (Navigation)</div>
+						<img src="https://3.bp.blogspot.com/-AgsQlr1anL4/WXTFO3GB2aI/AAAAAAAAA3c/aIlTTohRAgU48oxeEjGGMIYwsD-pLBPRgCLcBGAs/s1600/Kivy%2B4.JPG" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://2.bp.blogspot.com/--XfYTKM6QZw/WXTFPHeWKXI/AAAAAAAAA3g/8F5hAPCq80Au1dtYbXhtL9M75xHt_Cu9gCLcBGAs/s1600/Kivy%2B5.JPG" alt="7. Kivy Interface (Location)" onclick="window.open('https://2.bp.blogspot.com/--XfYTKM6QZw/WXTFPHeWKXI/AAAAAAAAA3g/8F5hAPCq80Au1dtYbXhtL9M75xHt_Cu9gCLcBGAs/s1600/Kivy%2B5.JPG', '_blank');" />
+					<span><div class="caption">7. Kivy Interface (Location)</div>
+						<img src="https://2.bp.blogspot.com/--XfYTKM6QZw/WXTFPHeWKXI/AAAAAAAAA3g/8F5hAPCq80Au1dtYbXhtL9M75xHt_Cu9gCLcBGAs/s1600/Kivy%2B5.JPG" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://4.bp.blogspot.com/-GvPj-60L_k8/WXTFPSjRdmI/AAAAAAAAA3k/G2niCUTNn0sNcuVaZ9NHK-QWBZxLCpa5gCLcBGAs/s1600/Kivy%2B6.JPG" alt="8. Kivy Interface (Location Zoomed)" onclick="window.open('https://4.bp.blogspot.com/-GvPj-60L_k8/WXTFPSjRdmI/AAAAAAAAA3k/G2niCUTNn0sNcuVaZ9NHK-QWBZxLCpa5gCLcBGAs/s1600/Kivy%2B6.JPG', '_blank');" />
+					<span><div class="caption">8. Kivy Interface (Location Zoomed)</div>
+						<img src="https://4.bp.blogspot.com/-GvPj-60L_k8/WXTFPSjRdmI/AAAAAAAAA3k/G2niCUTNn0sNcuVaZ9NHK-QWBZxLCpa5gCLcBGAs/s1600/Kivy%2B6.JPG" alt=""></span>
+				</div>
+			</div><br><br>
+			
+			<f4>Summer Exchange: China in China</f4><br>
+			<div style="display:inline-block; width:30%; min-width:300px; text-align:center">
+				<img class="imgDefault" src="https://4.bp.blogspot.com/-6xDxHtbH7Ek/WXTOVPaRQ8I/AAAAAAAAA38/CJPCLj9qEvArmxk5Df5uyUVW7pR_vzjBwCLcBGAs/s1600/Week%2B11%2BTheme%2BLogo.png" alt="Theme Logo">
+			</div>
+			<div style="display:inline-block; width:68%; min-width:300px; text-align:left; vertical-align:top;">
+				The project aims to explore a variety of ceramic modelling and materials. During our stay at Jing De Zhen, the porcelain capital of China, my group and I picked up skills to create our very own ceramic series that emphasise on texture and product creativity. Ceramic possesses strong cultural values and aesthetics. While it used to be wisely used in buildings and accessories, today we can redesign ceramic with modern technology to explore new functions and decoration methods.<br><br>
+				My ceramic product, titled "Handy Cup Series", was inspired by Chinese acupuncture hand models and I wanted to incorporate the design with an everyday item. First, I had to sketch my designs and prototype it with soft clay to familiarise with the techniques that will be involved and also to test the feasibility of the design. After finalising my design, I was handed actual ceramic clay in Jing De Zhen and my final mold was glazed and put in a kiln.<br>
+				<br><br>
+				<i>Hover over thumbnail to enlarge image, click to open in new tab</i>
+				<div class="imgHoverP">
+					<img src="https://2.bp.blogspot.com/-edhsbKgYIrA/WVuhItXtCSI/AAAAAAAAA1E/WENsO7-rZvgFZDTi1ypjH3MIqTw9ASVvQCLcBGAs/s1600/China%2Bin%2BChina%2BPoster.png" alt="1. Ceramic poster" onclick="window.open('https://2.bp.blogspot.com/-edhsbKgYIrA/WVuhItXtCSI/AAAAAAAAA1E/WENsO7-rZvgFZDTi1ypjH3MIqTw9ASVvQCLcBGAs/s1600/China%2Bin%2BChina%2BPoster.png', '_blank');" />
+					<span><div class="caption">1. Ceramic poster</div>
+						<img src="https://2.bp.blogspot.com/-edhsbKgYIrA/WVuhItXtCSI/AAAAAAAAA1E/WENsO7-rZvgFZDTi1ypjH3MIqTw9ASVvQCLcBGAs/s1600/China%2Bin%2BChina%2BPoster.png" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://4.bp.blogspot.com/-LQuJc80fSDg/WXq-zwqqe4I/AAAAAAAAA54/OLWNNEKWXqE3JnBwRaQhTvfCc_Q0N46gwCLcBGAs/s1600/Sketching.jpg" alt="2. Sketching phase" onclick="window.open('https://4.bp.blogspot.com/-LQuJc80fSDg/WXq-zwqqe4I/AAAAAAAAA54/OLWNNEKWXqE3JnBwRaQhTvfCc_Q0N46gwCLcBGAs/s1600/Sketching.jpg', '_blank');" />
+					<span><div class="caption">2. Sketching phase</div>
+						<img src="https://4.bp.blogspot.com/-LQuJc80fSDg/WXq-zwqqe4I/AAAAAAAAA54/OLWNNEKWXqE3JnBwRaQhTvfCc_Q0N46gwCLcBGAs/s1600/Sketching.jpg" alt=""></span>
+				</div>
+				<div class="imgHoverL">
+					<img src="https://1.bp.blogspot.com/-z8pnMpNBCcw/WXq-z1fwJgI/AAAAAAAAA6A/Z9WhG6HVpMc0fqeHkwJ6iAbv91kaxPWVQCLcBGAs/s1600/Prototyping.jpg" alt="3. Prototyping phase" onclick="window.open('https://1.bp.blogspot.com/-z8pnMpNBCcw/WXq-z1fwJgI/AAAAAAAAA6A/Z9WhG6HVpMc0fqeHkwJ6iAbv91kaxPWVQCLcBGAs/s1600/Prototyping.jpg', '_blank');" />
+					<span><div class="caption">3. Prototyping phase</div>
+						<img src="https://1.bp.blogspot.com/-z8pnMpNBCcw/WXq-z1fwJgI/AAAAAAAAA6A/Z9WhG6HVpMc0fqeHkwJ6iAbv91kaxPWVQCLcBGAs/s1600/Prototyping.jpg" alt=""></span>
+				</div>
+				<div class="imgHoverL">
+					<img src="https://1.bp.blogspot.com/-IXsrganfRJA/WXq-zxikreI/AAAAAAAAA58/KIg4fuL798Y_5fpnqKLcPPptWdfWRA7dACLcBGAs/s1600/Mold.JPG" alt="4. Molding phase" onclick="window.open('https://1.bp.blogspot.com/-IXsrganfRJA/WXq-zxikreI/AAAAAAAAA58/KIg4fuL798Y_5fpnqKLcPPptWdfWRA7dACLcBGAs/s1600/Mold.JPG', '_blank');" />
+					<span><div class="caption">4. Molding phase</div>
+						<img src="https://1.bp.blogspot.com/-IXsrganfRJA/WXq-zxikreI/AAAAAAAAA58/KIg4fuL798Y_5fpnqKLcPPptWdfWRA7dACLcBGAs/s1600/Mold.JPG" alt=""></span>
+				</div>
+				<div class="imgHoverL">
+					<img src="https://1.bp.blogspot.com/-CV1pHZEPCqc/WVufc1UY-YI/AAAAAAAAA08/iy7mamzCbSAh_AZ2fjZLxlkjnWSj2BHlwCLcBGAs/s1600/China%2Bin%2BChina%2BCeramic.JPG" alt="5. My very own ceramic products" onclick="window.open('https://1.bp.blogspot.com/-CV1pHZEPCqc/WVufc1UY-YI/AAAAAAAAA08/iy7mamzCbSAh_AZ2fjZLxlkjnWSj2BHlwCLcBGAs/s1600/China%2Bin%2BChina%2BCeramic.JPG', '_blank');" />
+					<span><div class="caption">5. My very own ceramic products</div>
+						<img src="https://1.bp.blogspot.com/-CV1pHZEPCqc/WVufc1UY-YI/AAAAAAAAA08/iy7mamzCbSAh_AZ2fjZLxlkjnWSj2BHlwCLcBGAs/s1600/China%2Bin%2BChina%2BCeramic.JPG" alt=""></span>
+				</div>
+			</div><br><br>
+			
+			<f4>Introduction to Design: REdefine - Smart Adjustable Locker Space (SALS)</f4><br>
+			<div style="display:inline-block; width:30%; min-width:300px; text-align:center">
+				<img class="imgDefault" src="https://3.bp.blogspot.com/-QpMVMj8rLiY/WXTVGVX2LlI/AAAAAAAAA4M/uVOtsHzn69oigQKnvWYlJgnodiUyDCVUQCLcBGAs/s1600/Redefine%2BLogo.png" alt="Theme Logo">
+			</div>
+			<div style="display:inline-block; width:68%; min-width:300px; text-align:left; vertical-align:top;">
+				Lockers that can fit objects of all shapes and sizes perfectly without a waste of space.
+				Using intuitive scanning and simple user interface, user is able to 3D scan an object for its size and dimensions. With smart matter, space optimization algorithm is used for storage inspired by Tetris gameplay. Object is then able to be placed into the locker by its modular adaptability.<br>
+				<br><br>
+				<i>Hover over thumbnail to enlarge image, click to open in new tab</i>
+				<div class="imgHoverP">
+					<img src="https://3.bp.blogspot.com/-e8G_GGjX5gA/WVT_Zzd71bI/AAAAAAAAAzk/OlwnHS68wkQEAfm6vh51-lFy8Dip_jTbgCLcBGAs/s1600/Term%2B2%2BDesign.png" alt="1. SALS poster" onclick="window.open('https://3.bp.blogspot.com/-e8G_GGjX5gA/WVT_Zzd71bI/AAAAAAAAAzk/OlwnHS68wkQEAfm6vh51-lFy8Dip_jTbgCLcBGAs/s1600/Term%2B2%2BDesign.png', '_blank');" />
+					<span><div class="caption">1. SALS poster</div>
+						<img src="https://3.bp.blogspot.com/-e8G_GGjX5gA/WVT_Zzd71bI/AAAAAAAAAzk/OlwnHS68wkQEAfm6vh51-lFy8Dip_jTbgCLcBGAs/s1600/Term%2B2%2BDesign.png" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://1.bp.blogspot.com/-RMjxRTtGai0/WVt6fTiS97I/AAAAAAAAA0I/UT_1M4YbDw0XsE8NJWYKkgZZSB7blmh3ACLcBGAs/s1600/Term%2B2%2BDesign%2BZoom%2BOut.jpg" alt="2. Main structure of locker" onclick="window.open('https://1.bp.blogspot.com/-RMjxRTtGai0/WVt6fTiS97I/AAAAAAAAA0I/UT_1M4YbDw0XsE8NJWYKkgZZSB7blmh3ACLcBGAs/s1600/Term%2B2%2BDesign%2BZoom%2BOut.jpg', '_blank');" />
+					<span><div class="caption">2. Main structure of locker</div>
+						<img src="https://1.bp.blogspot.com/-RMjxRTtGai0/WVt6fTiS97I/AAAAAAAAA0I/UT_1M4YbDw0XsE8NJWYKkgZZSB7blmh3ACLcBGAs/s1600/Term%2B2%2BDesign%2BZoom%2BOut.jpg" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://3.bp.blogspot.com/-bdatOo7SSyo/WVt6fQ8MAnI/AAAAAAAAA0E/-GeigAx34kY73ftcbgqhpXjJUtILXAiMgCLcBGAs/s1600/Term%2B2%2BDesign%2BFront%2BView.jpg" alt="3. Door mechanism of locker" onclick="window.open('https://3.bp.blogspot.com/-bdatOo7SSyo/WVt6fQ8MAnI/AAAAAAAAA0E/-GeigAx34kY73ftcbgqhpXjJUtILXAiMgCLcBGAs/s1600/Term%2B2%2BDesign%2BFront%2BView.jpg', '_blank');" />
+					<span><div class="caption">3. Door mechanism of locker</div>
+						<img src="https://3.bp.blogspot.com/-bdatOo7SSyo/WVt6fQ8MAnI/AAAAAAAAA0E/-GeigAx34kY73ftcbgqhpXjJUtILXAiMgCLcBGAs/s1600/Term%2B2%2BDesign%2BFront%2BView.jpg" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://4.bp.blogspot.com/-OKivbTWclY4/WVt6ff_BG9I/AAAAAAAAA0A/EOuBpFOR1KcWS2C8qoAaO4p6_WHfsDOwACLcBGAs/s1600/Term%2B2%2BDesign%2BSide%2BView.jpg" alt="4. Side view of door mechanism" onclick="window.open('https://4.bp.blogspot.com/-OKivbTWclY4/WVt6ff_BG9I/AAAAAAAAA0A/EOuBpFOR1KcWS2C8qoAaO4p6_WHfsDOwACLcBGAs/s1600/Term%2B2%2BDesign%2BSide%2BView.jpg', '_blank');" />
+					<span><div class="caption">4. Side view of door mechanism</div>
+						<img src="https://4.bp.blogspot.com/-OKivbTWclY4/WVt6ff_BG9I/AAAAAAAAA0A/EOuBpFOR1KcWS2C8qoAaO4p6_WHfsDOwACLcBGAs/s1600/Term%2B2%2BDesign%2BSide%2BView.jpg" alt=""></span>
+				</div>
+			</div><br><br>
+			
+			<f4>Physics I: Ivory Launcher</f4><br>
+			<div style="display:inline-block; width:30%; min-width:300px; text-align:center">
+				<img class="imgDefault" src="https://3.bp.blogspot.com/-lozD-R8_XJ8/WVT7pnIr17I/AAAAAAAAAy4/WRtQ6BTAgdEu--dehJMMQjI824xrfxYiQCLcBGAs/s1600/Term%2B1%2BPhysics.jpg" alt="Launcher front view">
+			</div>
+			<div style="display:inline-block; width:68%; min-width:300px; text-align:left; vertical-align:top;">
+				My team built a projectile launcher that could be used in an educational setting to demonstrate the basic law of kinematics, and for students to map what they have learnt in theory to real life. The projectile launcher is spring-loaded, mostly 6mm plywood and assembled using mainly nails and enforced with a glue gun. The angle and speed of launch (converted from elastic potential energy of springs) can be varied and the distance that the projectile travelled can be calculated quite accurately.<br>
+				<br><br>
+				<i>Hover over thumbnail to enlarge image, click to open in new tab</i>
+				<div class="imgHoverP">
+					<img src="https://3.bp.blogspot.com/-lozD-R8_XJ8/WVT7pnIr17I/AAAAAAAAAy4/WRtQ6BTAgdEu--dehJMMQjI824xrfxYiQCLcBGAs/s1600/Term%2B1%2BPhysics.jpg" alt="1. Launcher front view" onclick="window.open('https://3.bp.blogspot.com/-lozD-R8_XJ8/WVT7pnIr17I/AAAAAAAAAy4/WRtQ6BTAgdEu--dehJMMQjI824xrfxYiQCLcBGAs/s1600/Term%2B1%2BPhysics.jpg', '_blank');" />
+					<span><div class="caption">1. Launcher front view</div>
+						<img src="https://3.bp.blogspot.com/-lozD-R8_XJ8/WVT7pnIr17I/AAAAAAAAAy4/WRtQ6BTAgdEu--dehJMMQjI824xrfxYiQCLcBGAs/s1600/Term%2B1%2BPhysics.jpg" alt=""></span>
+				</div>
+				<div class="imgHoverL">
+					<img src="https://1.bp.blogspot.com/-9qk1QKm_NCA/WVT7pkE6vKI/AAAAAAAAAy0/JX2B57T5QasUPpuijIcCdsX4hQ1ZX323ACLcBGAs/s1600/Term%2B1%2BPhysics%2B2.JPG" alt="2. Launcher description" onclick="window.open('https://1.bp.blogspot.com/-9qk1QKm_NCA/WVT7pkE6vKI/AAAAAAAAAy0/JX2B57T5QasUPpuijIcCdsX4hQ1ZX323ACLcBGAs/s1600/Term%2B1%2BPhysics%2B2.JPG', '_blank');" />
+					<span><div class="caption">2. Launcher description</div>
+						<img src="https://1.bp.blogspot.com/-9qk1QKm_NCA/WVT7pkE6vKI/AAAAAAAAAy0/JX2B57T5QasUPpuijIcCdsX4hQ1ZX323ACLcBGAs/s1600/Term%2B1%2BPhysics%2B2.JPG" alt=""></span>
+				</div>
+			</div><br><br>
+			
+			<f4>Engineering in the Physical World: Rave Thermoelectric Generator</f4><br>
+			<div style="display:inline-block; width:30%; min-width:300px; text-align:center">
+				<img class="imgDefault" src="https://2.bp.blogspot.com/-reaHXCNOtu0/WVT7rdyQhNI/AAAAAAAAAzM/Hy4xGr3avKkvLPIrPfX9Rt3DUXjxQPo5ACLcBGAs/s1600/Term%2B3%2BPhysics%2B1D.png" alt="RAVE">
+			</div>
+			<div style="display:inline-block; width:68%; min-width:300px; text-align:left; vertical-align:top;">
+				My team made use of the Seebeck effect to convert temperature difference (heat energy) into electricity to power a buzzer. Replacing the buzzer with a radiowave emitter, this can help us locate victims in the event of a disaster as it is easily made and easy-to-use.<br>
+				<br><br>
+				<i>Hover over thumbnail to enlarge image, click to open in new tab</i>
+				<div class="imgHoverP">
+					<img src="https://2.bp.blogspot.com/-reaHXCNOtu0/WVT7rdyQhNI/AAAAAAAAAzM/Hy4xGr3avKkvLPIrPfX9Rt3DUXjxQPo5ACLcBGAs/s1600/Term%2B3%2BPhysics%2B1D.png" alt="1. RAVE" onclick="window.open('https://2.bp.blogspot.com/-reaHXCNOtu0/WVT7rdyQhNI/AAAAAAAAAzM/Hy4xGr3avKkvLPIrPfX9Rt3DUXjxQPo5ACLcBGAs/s1600/Term%2B3%2BPhysics%2B1D.png', '_blank');" />
+					<span><div class="caption">1. RAVE</div>
+						<img src="https://2.bp.blogspot.com/-reaHXCNOtu0/WVT7rdyQhNI/AAAAAAAAAzM/Hy4xGr3avKkvLPIrPfX9Rt3DUXjxQPo5ACLcBGAs/s1600/Term%2B3%2BPhysics%2B1D.png" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://2.bp.blogspot.com/-8OyhR-KPI6w/WVuQOanhO1I/AAAAAAAAA0k/uMVCyRSr398xtgTP69pp62HqPmsLSiPPACLcBGAs/s1600/Term%2B3%2BR.jpg" alt="2. R" onclick="window.open('https://2.bp.blogspot.com/-8OyhR-KPI6w/WVuQOanhO1I/AAAAAAAAA0k/uMVCyRSr398xtgTP69pp62HqPmsLSiPPACLcBGAs/s1600/Term%2B3%2BR.jpg', '_blank');" />
+					<span><div class="caption">2. R</div>
+						<img src="https://2.bp.blogspot.com/-8OyhR-KPI6w/WVuQOanhO1I/AAAAAAAAA0k/uMVCyRSr398xtgTP69pp62HqPmsLSiPPACLcBGAs/s1600/Term%2B3%2BR.jpg" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://4.bp.blogspot.com/-503g6Y0i9zc/WVuQOatuOEI/AAAAAAAAA0o/BrfFuwOzvI45qdSnmuKQ2hdRESmgFrxpQCLcBGAs/s1600/Term%2B3%2BAV.jpg" alt="3. AV" onclick="window.open('https://4.bp.blogspot.com/-503g6Y0i9zc/WVuQOatuOEI/AAAAAAAAA0o/BrfFuwOzvI45qdSnmuKQ2hdRESmgFrxpQCLcBGAs/s1600/Term%2B3%2BAV.jpg', '_blank');" />
+					<span><div class="caption">3. AV</div>
+						<img src="https://4.bp.blogspot.com/-503g6Y0i9zc/WVuQOatuOEI/AAAAAAAAA0o/BrfFuwOzvI45qdSnmuKQ2hdRESmgFrxpQCLcBGAs/s1600/Term%2B3%2BAV.jpg" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://1.bp.blogspot.com/-wb5bCFYMaSI/WVuQOczer-I/AAAAAAAAA0g/tPx9yoQi2qQdlYchKJjLop__2Wr2bPjfgCLcBGAs/s1600/Term%2B3%2BE.jpg" alt="4. E" onclick="window.open('https://1.bp.blogspot.com/-wb5bCFYMaSI/WVuQOczer-I/AAAAAAAAA0g/tPx9yoQi2qQdlYchKJjLop__2Wr2bPjfgCLcBGAs/s1600/Term%2B3%2BE.jpg', '_blank');" />
+					<span><div class="caption">4. E</div>
+						<img src="https://1.bp.blogspot.com/-wb5bCFYMaSI/WVuQOczer-I/AAAAAAAAA0g/tPx9yoQi2qQdlYchKJjLop__2Wr2bPjfgCLcBGAs/s1600/Term%2B3%2BE.jpg" alt=""></span>
+				</div>
+			</div><br><br>
+			
+			<f4>Engineering in the Physical World: Incubator</f4><br>
+			<div style="display:inline-block; width:30%; min-width:300px; text-align:center">
+				<img class="imgDefault" src="https://4.bp.blogspot.com/-yTa05D9RL6Q/WVuPNOyZkMI/AAAAAAAAA0c/3rrGDUyZP9k4qUraab3bmG__G5GnbJB6ACLcBGAs/s1600/Term%2B3%2BPhysical%2BWorld%2BIncubator.jpg" alt="Incubator top view">
+			</div>
+			<div style="display:inline-block; width:68%; min-width:300px; text-align:left; vertical-align:top;">
+				My team designed and built an incubator that can maintain a constant temperature using Peltier modules. The aim is to minimize heat loss in the set-up and minimize the size and weight of incubator to make it compact enough for an eBot to transport it around.<br>
+				<br><br>
+				<i>Hover over thumbnail to enlarge image, click to open in new tab</i>
+				<div class="imgHoverP">
+					<img src="https://4.bp.blogspot.com/-yTa05D9RL6Q/WVuPNOyZkMI/AAAAAAAAA0c/3rrGDUyZP9k4qUraab3bmG__G5GnbJB6ACLcBGAs/s1600/Term%2B3%2BPhysical%2BWorld%2BIncubator.jpg" alt="1. Incubator top view" onclick="window.open('https://4.bp.blogspot.com/-yTa05D9RL6Q/WVuPNOyZkMI/AAAAAAAAA0c/3rrGDUyZP9k4qUraab3bmG__G5GnbJB6ACLcBGAs/s1600/Term%2B3%2BPhysical%2BWorld%2BIncubator.jpg', '_blank');" />
+					<span><div class="caption">1. Incubator top view</div>
+						<img src="https://4.bp.blogspot.com/-yTa05D9RL6Q/WVuPNOyZkMI/AAAAAAAAA0c/3rrGDUyZP9k4qUraab3bmG__G5GnbJB6ACLcBGAs/s1600/Term%2B3%2BPhysical%2BWorld%2BIncubator.jpg" alt=""></span>
+				</div>
+				<div class="imgHoverL">
+					<img src="https://1.bp.blogspot.com/-G7_-Egpa2W4/WVT7rGOtpPI/AAAAAAAAAzI/VUEZ-v7u9WY_dQOpOM-s1v076if-DFBCQCLcBGAs/s1600/Term%2B3%2BPhysics%2B2D.JPG" alt="2. Incubator description" onclick="window.open('https://1.bp.blogspot.com/-G7_-Egpa2W4/WVT7rGOtpPI/AAAAAAAAAzI/VUEZ-v7u9WY_dQOpOM-s1v076if-DFBCQCLcBGAs/s1600/Term%2B3%2BPhysics%2B2D.JPG', '_blank');" />
+					<span><div class="caption">2. Incubator description</div>
+						<img src="https://1.bp.blogspot.com/-G7_-Egpa2W4/WVT7rGOtpPI/AAAAAAAAAzI/VUEZ-v7u9WY_dQOpOM-s1v076if-DFBCQCLcBGAs/s1600/Term%2B3%2BPhysics%2B2D.JPG" alt=""></span>
+				</div>
+			</div><br><br>
+			
+			<f4>Biology: Effect of UV Radiation on Bacteria</f4><br>
+			<div style="display:inline-block; width:30%; min-width:300px; text-align:center">
+				<img class="imgDefault" src="https://3.bp.blogspot.com/-gfLZfBQzLMo/WVuNTT7V6qI/AAAAAAAAA0U/iZ3J4hwq5wQsAIPsf0ESARMEMfM43-E4gCLcBGAs/s1600/Term%2B3%2BBio%2BMicroscope.jpg" alt="Microscopic view">
+			</div>
+			<div style="display:inline-block; width:68%; min-width:300px; text-align:left; vertical-align:top;">
+				Through the process of serial dilution, my group designed an experiment to test the effect of UV rays of different wavelength on bacteria.<br>
+				<br><br>
+				<i>Hover over thumbnail to enlarge image, click to open in new tab</i>
+				<div class="imgHoverP">
+					<img src="https://3.bp.blogspot.com/-gfLZfBQzLMo/WVuNTT7V6qI/AAAAAAAAA0U/iZ3J4hwq5wQsAIPsf0ESARMEMfM43-E4gCLcBGAs/s1600/Term%2B3%2BBio%2BMicroscope.jpg" alt="1. Microscopic view" onclick="window.open('https://3.bp.blogspot.com/-gfLZfBQzLMo/WVuNTT7V6qI/AAAAAAAAA0U/iZ3J4hwq5wQsAIPsf0ESARMEMfM43-E4gCLcBGAs/s1600/Term%2B3%2BBio%2BMicroscope.jpg', '_blank');" />
+					<span><div class="caption">1. Microscopic view</div>
+						<img src="https://3.bp.blogspot.com/-gfLZfBQzLMo/WVuNTT7V6qI/AAAAAAAAA0U/iZ3J4hwq5wQsAIPsf0ESARMEMfM43-E4gCLcBGAs/s1600/Term%2B3%2BBio%2BMicroscope.jpg" alt=""></span>
+				</div>
+				<div class="imgHoverP">
+					<img src="https://1.bp.blogspot.com/-M3XilIL1BDM/WVT7qabGODI/AAAAAAAAAzA/A9gWJbSZzp4evFLkPwfpvQCUK4E0tsYdQCLcBGAs/s1600/Term%2B3%2BBiology.JPG" alt="2. Experiment setup" onclick="window.open('https://1.bp.blogspot.com/-M3XilIL1BDM/WVT7qabGODI/AAAAAAAAAzA/A9gWJbSZzp4evFLkPwfpvQCUK4E0tsYdQCLcBGAs/s1600/Term%2B3%2BBiology.JPG', '_blank');" />
+					<span><div class="caption">2. Experiment setup</div>
+						<img src="https://1.bp.blogspot.com/-M3XilIL1BDM/WVT7qabGODI/AAAAAAAAAzA/A9gWJbSZzp4evFLkPwfpvQCUK4E0tsYdQCLcBGAs/s1600/Term%2B3%2BBiology.JPG" alt=""></span>
+				</div>
+				<div class="imgHoverL">
+					<img src="https://2.bp.blogspot.com/-sviOTxpIcwc/WVT7qTED96I/AAAAAAAAAzE/mTAo0uMM9Kwadd-lBE6GC9wpwzIke43vACLcBGAs/s1600/Term%2B3%2BBiology%2B2.JPG" alt="3. Experiment results" onclick="window.open('https://2.bp.blogspot.com/-sviOTxpIcwc/WVT7qTED96I/AAAAAAAAAzE/mTAo0uMM9Kwadd-lBE6GC9wpwzIke43vACLcBGAs/s1600/Term%2B3%2BBiology%2B2.JPG', '_blank');" />
+					<span><div class="caption">3. Experiment results</div>
+						<img src="https://2.bp.blogspot.com/-sviOTxpIcwc/WVT7qTED96I/AAAAAAAAAzE/mTAo0uMM9Kwadd-lBE6GC9wpwzIke43vACLcBGAs/s1600/Term%2B3%2BBiology%2B2.JPG" alt=""></span>
+				</div>
+			</div><br><br>
+		</div>
+	</div>
+</div>
+<br><br>
+
+
+<div style="position:fixed; right:1%; bottom:0; padding:0; border:0;">
+	<p style="font-size:65%">Copyright 2020 Wong Kay Jan</p>
+</div>
+</body>
 </html>
